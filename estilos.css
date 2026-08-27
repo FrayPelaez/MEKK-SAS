@@ -132,6 +132,41 @@ nav a:hover {
    
 }
 
+
+#sobreNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 90vh;
+    color: black;
+    background-image:url("/imgs/SectionNosotros.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center , center;
+     margin-top: 10px;
+     padding: 25px;
+
+     p{
+     max-width: 500px;
+     text-align: left;
+     margin-top: 20px;
+     font-size: 1.2em;
+     margin-left: 20px;
+     font-size: 1.5em;
+     }
+
+     button{
+        margin: 25px;
+
+     }
+}
+
+#sobreNosotros h2{
+     font-size: 3.9em;
+     margin:10px;
+    
+}
+
 #hero{
     display: flex;
     flex-direction: column;
@@ -200,7 +235,7 @@ nav a:hover {
 
 #container-productos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -212,6 +247,9 @@ nav a:hover {
     text-align: center;
     align-items: center;
     margin: 20px;
+    
+
+    
     
 }
 
@@ -491,4 +529,12 @@ a{
     color:#ff6500;
     display: flex;
     flex-direction: column;
+}
+
+.copyright{
+    color: white;
+     border-top: 1px solid #2d3748;
+    margin-top: 20x;
+   
+
 }
