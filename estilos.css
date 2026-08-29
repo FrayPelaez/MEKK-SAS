@@ -1,3 +1,7 @@
+/* =====================================================
+   RESET Y CONFIGURACIÓN GENERAL
+===================================================== */
+
 *{
     box-sizing: border-box;
     text-decoration: none;
@@ -14,6 +18,12 @@ h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 h3{font-size: 1.25em;}
 ul{list-style: none;}
+
+
+/* =====================================================
+   BOTONES GENERALES
+===================================================== */
+
 
 button{
     display: flex;
@@ -62,6 +72,12 @@ button:hover{
 
 }
 
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+
 header {
     background-color: #f7f7f7;
     height: 80px;
@@ -89,6 +105,10 @@ header {
     height: auto;
 }
 
+/* =====================================================
+   NAVEGACIÓN
+===================================================== */
+
 nav {
     display: flex;
     align-items: center;
@@ -108,6 +128,12 @@ nav a:hover {
     color: #ff6500;
     text-decoration:underline;
 }
+
+
+/* =====================================================
+   BOTÓN WHATSAPP
+===================================================== */
+
 
 .boton-what {
     display: flex;
@@ -133,39 +159,13 @@ nav a:hover {
 }
 
 
-#sobreNosotros{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    height: 90vh;
-    color: black;
-    background-image:url("/imgs/SectionNosotros.png");
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center , center;
-     margin-top: 10px;
-     padding: 25px;
 
-     p{
-     max-width: 500px;
-     text-align: left;
-     margin-top: 20px;
-     font-size: 1.2em;
-     margin-left: 20px;
-     font-size: 1.5em;
-     }
 
-     button{
-        margin: 25px;
 
-     }
-}
+/* =====================================================
+   HERO
+===================================================== */
 
-#sobreNosotros h2{
-     font-size: 3.9em;
-     margin:10px;
-    
-}
 
 #hero{
     display: flex;
@@ -216,6 +216,53 @@ nav a:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+
+/* =====================================================
+   SECCIÓN SOBRE NOSOTROS
+===================================================== */
+
+
+
+#sobreNosotros{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 90vh;
+    color: black;
+    background-image:url("/imgs/SectionNosotros.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center , center;
+     margin-top: 10px;
+     padding: 25px;
+
+     p{
+     max-width: 500px;
+     text-align: left;
+     margin-top: 20px;
+     font-size: 1.2em;
+     margin-left: 20px;
+     font-size: 1.5em;
+     }
+
+     button{
+        margin: 25px;
+
+     }
+}
+
+#sobreNosotros h2{
+     font-size: 3.9em;
+     margin:10px;
+    
+}
+
+/* =====================================================
+   TÍTULO PRODUCTOS
+===================================================== */
+
+
 .NuestrosProductos h2{
     color: black;
     text-align: center;
@@ -233,11 +280,23 @@ nav a:hover {
     margin-bottom: 60px;
 }
 
+
+/* =====================================================
+   GRID DE PRODUCTOS
+===================================================== */
+
+
 #container-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+
+/* =====================================================
+   TARJETAS DE PRODUCTOS
+===================================================== */
+
 
 .card{
   
@@ -292,6 +351,11 @@ nav a:hover {
     
 }
 
+/* =====================================================
+   BOTÓN VER MÁS PRODUCTOS
+===================================================== */
+
+
 
 .boton-ver{
     display: flex;
@@ -322,6 +386,11 @@ nav a:hover {
 
 }
 
+/* =====================================================
+   SECCIÓN ¿POR QUÉ ELEGIR MEKK?
+===================================================== */
+
+
 .header-porque{
     color:black;
     text-align: center;
@@ -340,6 +409,11 @@ nav a:hover {
     color:#4a5565;
      font-size: 1.7rem;
 }
+
+
+/* =====================================================
+   TARJETAS DE BENEFICIOS
+===================================================== */
 
 .beneficios{
     border: 1px solid #d9d9d9;
@@ -372,6 +446,12 @@ nav a:hover {
     background-color:#cccc;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.10);
 }
+
+
+/* =====================================================
+   EMPRESAS CLIENTES
+===================================================== */
+
 
 #tituloParrafoEmpresas{
      color:black;
@@ -414,8 +494,12 @@ nav a:hover {
      width: 210px;
      height: 150px;
     
-    
 }
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
 
 .footer{
     display: grid;
@@ -535,6 +619,601 @@ a{
     color: white;
      border-top: 1px solid #2d3748;
     margin-top: 20x;
+    }
+
    
 
+   /* =====================================================
+   CSS PRODUCTOS
+===================================================== */
+
+
+  .producto-equipo-baja {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin: 20px;
+
+    }
+    
+    .img-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.img-producto img {
+    width: 80%;
+     border: 1px solid #d9d9d9;
+    border-radius: 16px 16px 20px 20px;
+    margin: 50px;
+
+
+
+.info-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top:20px;
+    margin:  0 auto;
+
+    } 
+
+  }
+
+  .botones-producto {
+    display: flex;
+    margin-top: 20px;
+    gap: 8px;
+    width: 400px;
+}
+
+.botones-producto button {
+    width: 100%;
+    height: 55px;
+    
+}
+
+.info-producto p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #4b5563;
+    max-width: 600px;
+    border-left: 4px solid #ff6500;
+    padding-left: 20px;
+    margin: 25px 0;
+}
+.info-producto p {
+    transition: 0.3s ease;
+}
+
+.info-producto p:hover {
+    color: #1e293b;
+    transform: translateX(5px);
+}
+
+.img-producto img:hover {
+    width: 85%;
+     border: 2px solid #d9d9d9;
+    border-radius: 16px 16px 20px 20px;
+    margin: 50px;
+}
+
+.boton-ficha,
+.boton-cotizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 55px;
+    background-color: #ff6500;
+    color: white;
+    border-radius: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boton-ficha,
+.boton-cotizacion:hover{
+
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - TABLET
+   ========================================= */
+
+@media screen and (max-width: 1024px) {
+
+    /* HEADER */
+    .container {
+        padding: 5px 20px;
+    }
+
+    nav {
+        gap: 25px;
+        margin-right: 25px;
+    }
+
+    .boton-what {
+        width: auto;
+        padding: 14px 18px;
+    }
+
+    /* HERO */
+    #hero h1 {
+        font-size: 3rem;
+    }
+
+    #hero p {
+        width: 75%;
+        font-size: 1.3rem;
+    }
+
+    /* NOSOTROS */
+    #sobreNosotros {
+        height: 75vh;
+    }
+
+    #sobreNosotros h2 {
+        font-size: 3.2rem;
+    }
+
+    #sobreNosotros p {
+        max-width: 450px;
+        font-size: 1.2rem;
+    }
+
+    /* PRODUCTOS */
+    #container-productos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    /* BENEFICIOS */
+    #porqueMekk {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .beneficios {
+        width: auto;
+        margin: 15px;
+    }
+
+    /* EMPRESAS */
+    .empresas {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    /* FOOTER */
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        padding: 50px 40px;
+    }
+
+    /* PRODUCTO INDIVIDUAL */
+    .producto-equipo-baja {
+        gap: 30px;
+    }
+
+    .botones-producto {
+        width: 100%;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - MOVIL
+   ========================================= */
+
+@media screen and (max-width: 768px) {
+
+    /* CONFIGURACION GENERAL */
+    body {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    /* HEADER */
+    header {
+        height: auto;
+        position: relative;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    .boton-what {
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+    /* HERO */
+    #hero {
+        height: auto;
+        min-height: 650px;
+        padding: 80px 20px;
+        background-position: center;
+    }
+
+    #hero h1 {
+        font-size: 2.6rem;
+        line-height: 1.1;
+    }
+
+    #hero p {
+        width: 100%;
+        max-width: 600px;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        gap: 15px;
+        box-shadow: none;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+    }
+
+
+    /* SOBRE NOSOTROS */
+    #sobreNosotros {
+        height: auto;
+        min-height: 650px;
+        padding: 60px 20px;
+        background-position: center;
+    }
+
+    #sobreNosotros h2 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    #sobreNosotros p {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    #sobreNosotros button {
+        margin: 20px 0 0;
+    }
+
+
+    /* TITULO PRODUCTOS */
+    .NuestrosProductos {
+        padding: 0 20px;
+    }
+
+    .NuestrosProductos h2 {
+        font-size: 2.3rem;
+        margin-top: 60px;
+    }
+
+    .NuestrosProductos p {
+        font-size: 1rem;
+        margin-bottom: 35px;
+    }
+
+
+    /* PRODUCTOS */
+    #container-productos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .card {
+        margin: 0;
+        min-width: 0;
+    }
+
+    .card img {
+        width: 90%;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+        padding: 0 10px;
+        min-height: 55px;
+    }
+
+    .card button {
+        width: 85%;
+        height: 48px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .boton-verMas {
+        width: 220px;
+        height: 55px;
+    }
+
+
+    /* POR QUE MEKK */
+    .header-porque {
+        padding: 0 20px;
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .header-porque h2 {
+        font-size: 2.3rem;
+    }
+
+    .header-porque p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    #porqueMekk {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 0;
+    }
+
+    .beneficios {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+
+    /* EMPRESAS */
+    #tituloParrafoEmpresas {
+        padding: 0 20px;
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    #tituloParrafoEmpresas h2 {
+        font-size: 2.3rem;
+    }
+
+    #tituloParrafoEmpresas p {
+        font-size: 1rem;
+    }
+
+    .empresas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px;
+        justify-items: center;
+    }
+
+    .empresas img {
+        width: 140px;
+        height: 100px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 20px;
+        padding: 45px 25px;
+    }
+
+    .footer-columna1 {
+        grid-column: 1 / -1;
+    }
+
+    .footer-columna2,
+    .footer-columna3 {
+        width: auto;
+        height: auto;
+        text-align: left;
+    }
+
+    .footer-columna2 h3 {
+        justify-content: flex-start;
+    }
+
+    .footer-columna2 ul,
+    .footer-columna3 ul {
+        align-items: flex-start;
+        text-align: left;
+        padding: 0;
+        gap: 12px;
+    }
+
+    .footer-columna4 {
+        grid-column: 1 / -1;
+    }
+
+    .copyright {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+
+    /* PAGINA DE PRODUCTO */
+    .producto-equipo-baja {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 20px;
+    }
+
+    .img-producto img {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .info-producto {
+        width: 100%;
+    }
+
+    .info-producto h1 {
+        font-size: 2rem;
+    }
+
+    .botones-producto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .botones-producto button,
+    .boton-ficha,
+    .boton-cotizacion {
+        width: 100%;
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN - CELULARES PEQUEÑOS
+   ========================================= */
+
+@media screen and (max-width: 480px) {
+
+    /* HEADER */
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+
+    /* HERO */
+    #hero {
+        min-height: 600px;
+        padding: 60px 15px;
+    }
+
+    #hero h1 {
+        font-size: 2.1rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        max-width: 100%;
+    }
+
+    .hero-buttons button {
+        width: 100%;
+    }
+
+
+    /* NOSOTROS */
+    #sobreNosotros h2 {
+        font-size: 2.1rem;
+    }
+
+    #sobreNosotros p {
+        font-size: 1rem;
+    }
+
+
+    /* PRODUCTOS */
+    .NuestrosProductos h2,
+    .header-porque h2,
+    #tituloParrafoEmpresas h2 {
+        font-size: 2rem;
+    }
+
+    #container-productos {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card h3 {
+        font-size: 1.1rem;
+        min-height: auto;
+    }
+
+    .card img {
+        width: 75%;
+    }
+
+
+    /* EMPRESAS */
+    .empresas {
+        grid-template-columns: 1fr;
+    }
+
+    .empresas img {
+        width: 180px;
+        height: 120px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-columna1,
+    .footer-columna2,
+    .footer-columna3,
+    .footer-columna4,
+    .copyright {
+        grid-column: auto;
+    }
+
+    .footer-columna2 h3 {
+        justify-content: center;
+    }
+
+    .footer-columna2 ul,
+    .footer-columna3 ul {
+        align-items: center;
+        text-align: center;
+    }
+
+    .redes {
+        justify-content: center;
+    }
+}
+
