@@ -83,16 +83,21 @@ export default function ContactCards() {
       {/* WHATSAPP */}
       <article className="flex min-h-[240px] flex-col items-center justify-center rounded-xl border border-[#d9d9d9] bg-white p-6 text-center">
         <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#ff6500] text-white">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            className="h-8 w-8"
-          >
-            <path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.4 9.4 0 0 1-3.8-.9L3 21l1.7-5a8.5 8.5 0 1 1 16.3-4.5Z" />
-            <path d="M8.5 8.5c.5 3 2 4.5 5 5" />
-          </svg>
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="h-8 w-8"
+                aria-hidden="true"
+            >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+            </svg>
         </div>
 
         <h2 className="mt-5 text-2xl font-semibold leading-8 text-[#101828]">
