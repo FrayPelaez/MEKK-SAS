@@ -10,13 +10,13 @@ export default function ProductFilters({
   onCategoryChange,
 }: ProductFiltersProps) {
   return (
-    <aside className="rounded-xl border border-gray-200 bg-white p-5">
-      <h2 className="text-lg font-semibold text-gray-900">
+    <aside className="rounded-xl border border-[#d9d9d9] bg-white p-5">
+      <h2 className="text-lg font-semibold leading-6 text-[#101828]">
         Filtros
       </h2>
 
       <div className="mt-6">
-        <h3 className="text-sm font-semibold text-gray-900">
+        <h3 className="text-sm font-semibold leading-5 text-[#101828]">
           Categorías
         </h3>
 
@@ -24,7 +24,7 @@ export default function ProductFilters({
           {categories.map((category) => (
             <label
               key={category}
-              className="flex cursor-pointer items-center gap-3 text-sm text-gray-600"
+              className="flex cursor-pointer items-center gap-3 text-sm font-normal leading-5 text-[#4b5563]"
             >
               <input
                 type="checkbox"

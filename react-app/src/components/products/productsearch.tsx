@@ -13,7 +13,7 @@ export default function ProductSearch({
       value={value}
       onChange={(event) => onChange(event.target.value)}
       placeholder="Buscar productos..."
-      className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-gray-500 md:max-w-md"
+      className="w-full rounded-lg border border-[#d9d9d9] bg-white px-4 py-3 text-sm font-normal leading-5 text-[#4b5563] outline-none transition placeholder:text-[#64748b] focus:border-[#ff6500] md:max-w-md"
     />
   );
 }

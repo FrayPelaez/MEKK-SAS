@@ -178,7 +178,7 @@ nav a:hover {
     background-image:linear-gradient(0deg,
     rgba(0, 0, 0, 0.5),
      rgba(0, 0, 0, 0.5))
-     ,url("/imgs/Hero/IMAGEN\ HERO.png");
+     ,url("/imgs/inicio/Hero/IMAGEN\ HERO.png");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center , center;
@@ -230,7 +230,7 @@ nav a:hover {
     align-items:flex-start;
     height: 90vh;
     color: black;
-    background-image:url("/imgs/SectionNosotros.png");
+    background-image:url("/imgs/inicio/SobreNosotros/SectionNosotros.png");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center , center;

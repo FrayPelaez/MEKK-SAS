@@ -76,20 +76,20 @@ export default function Products() {
   }, [search, selectedCategories, sortOrder]);
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <main className="min-h-screen bg-[#f7f7f7]">
       <div className="mx-auto max-w-7xl px-6 py-10">
 
         {/* PAGE HEADER */}
         <div className="mb-8">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-gray-500">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#99a1af]">
             MEKK S.A.S.
           </p>
 
-          <h1 className="mt-2 text-4xl font-bold tracking-tight text-gray-900">
+          <h1 className="mt-2 text-4xl font-bold leading-10 tracking-tight text-[#101828]">
             Productos
           </h1>
 
-          <p className="mt-3 max-w-2xl text-gray-600">
+          <p className="mt-3 max-w-2xl text-base font-normal leading-6 text-[#4b5563]">
             Encuentra equipos, herramientas y soluciones para trabajos
             eléctricos profesionales.
           </p>
@@ -121,7 +121,7 @@ export default function Products() {
             </div>
 
             {/* RESULTS */}
-            <p className="mb-4 text-sm text-gray-500">
+            <p className="mb-4 text-sm font-normal leading-5 text-[#99a1af]">
               Mostrando {sortedProducts.length} productos
             </p>
 
@@ -139,8 +139,8 @@ export default function Products() {
 
             {/* NO RESULTS */}
             {sortedProducts.length === 0 && (
-              <div className="rounded-lg border border-gray-200 bg-white p-8 text-center">
-                <p className="text-gray-600">
+              <div className="rounded-lg border border-[#d9d9d9] bg-white p-8 text-center">
+                <p className="text-base font-normal leading-6 text-[#4b5563]">
                   No se encontraron productos con esos filtros.
                 </p>
               </div>
