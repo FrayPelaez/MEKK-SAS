@@ -19,7 +19,7 @@ export default function Pagination({
         type="button"
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage === 1}
-        className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-gray-700 transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-40"
+        className="rounded-lg border border-[#d9d9d9] bg-white px-4 py-2 text-sm font-normal leading-5 text-[#4b5563] transition hover:bg-[#f7f7f7] disabled:cursor-not-allowed disabled:opacity-40"
       >
         Anterior
       </button>
@@ -32,10 +32,10 @@ export default function Pagination({
             key={page}
             type="button"
             onClick={() => onPageChange(page)}
-            className={`h-10 min-w-10 rounded-lg border px-3 text-sm font-medium transition ${
+            className={`h-10 min-w-10 rounded-lg border px-3 text-sm font-semibold leading-5 transition ${
               currentPage === page
-                ? "border-gray-900 bg-gray-900 text-white"
-                : "border-gray-300 bg-white text-gray-700 hover:bg-gray-100"
+                ? "border-[#101828] bg-[#101828] text-white"
+                : "border-[#d9d9d9] bg-white text-[#4b5563] hover:bg-[#f7f7f7]"
             }`}
           >
             {page}
@@ -47,7 +47,7 @@ export default function Pagination({
         type="button"
         onClick={() => onPageChange(currentPage + 1)}
         disabled={currentPage === totalPages}
-        className="rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-gray-700 transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-40"
+        className="rounded-lg border border-[#d9d9d9] bg-white px-4 py-2 text-sm font-normal leading-5 text-[#4b5563] transition hover:bg-[#f7f7f7] disabled:cursor-not-allowed disabled:opacity-40"
       >
         Siguiente
       </button>
