@@ -6,7 +6,7 @@ import ProductFilters from "../components/products/productfilters";
 import ProductSort from "../components/products/productsort";
 import Pagination from "../components/products/pagination";
 
-const PRODUCTS_PER_PAGE = 8;
+const PRODUCTS_PER_PAGE = 16;
 
 export default function Products() {
   const [search, setSearch] = useState("");
@@ -81,10 +81,6 @@ export default function Products() {
 
         {/* PAGE HEADER */}
         <div className="mb-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#99a1af]">
-            MEKK S.A.S.
-          </p>
-
           <h1 className="mt-2 text-4xl font-bold leading-10 tracking-tight text-[#101828]">
             Productos
           </h1>

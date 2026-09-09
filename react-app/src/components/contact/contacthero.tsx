@@ -4,14 +4,32 @@ export default function ContactHero() {
       <div className="grid md:grid-cols-2">
         {/* VIDEO */}
         <div className="h-[300px] overflow-hidden bg-white md:h-[400px]">
+          {/* MOBILE */}
           <video
             autoPlay
             muted
             loop
             playsInline
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover md:hidden"
           >
-            <source src="/videos/contact-hero.mp4" type="video/mp4" />
+            <source
+              src="/videos/responsive-contact.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          {/* DESKTOP */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="hidden h-full w-full object-cover md:block"
+          >
+            <source
+              src="/videos/contact-hero.mp4"
+              type="video/mp4"
+            />
           </video>
         </div>
 
