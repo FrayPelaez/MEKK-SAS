@@ -123,7 +123,7 @@ export default function Products() {
 
             {/* PRODUCT GRID */}
             {paginatedProducts.length > 0 && (
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
+              <div className="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 xl:grid-cols-4">
                 {paginatedProducts.map((product) => (
                   <ProductRow
                     key={product.id}
