@@ -15,29 +15,28 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 h-20 border-b border-[#d9d9d9] bg-[#f7f7f7]">
       <div className="mx-auto flex h-full w-full max-w-[1250px] items-center justify-between px-6 lg:px-[30px]">
         {/* LOGO */}
-        <a href="/INDEX.html" className="shrink-0">
+        <NavLink
+          to="/"
+          end
+          onClick={() => setMenuOpen(false)}
+          className="shrink-0"
+        >
           <img
             src="/imgs/navbar/logoMekkSaS.png"
             alt="Logo de MEKK S.A.S."
             className="h-auto w-[100px]"
           />
-        </a>
+        </NavLink>
 
         {/* NAVEGACIÓN DESKTOP */}
         <nav className="ml-auto mr-[55px] hidden items-center gap-[45px] md:flex">
-          <a
-            href="/INDEX.html"
-            className="text-base font-semibold text-[#1e293b] transition hover:text-[#ff6500]"
-          >
+          <NavLink to="/" end className={navLinkStyles}>
             Inicio
-          </a>
+          </NavLink>
 
-          <a
-            href="/INDEX.html#sobreNosotros"
-            className="text-base font-semibold text-[#1e293b] transition hover:text-[#ff6500]"
-          >
+          <NavLink to="/nosotros" className={navLinkStyles}>
             Nosotros
-          </a>
+          </NavLink>
 
           <NavLink to="/productos" className={navLinkStyles}>
             Productos
@@ -120,19 +119,22 @@ export default function Navbar() {
       {menuOpen && (
         <div className="border-t border-[#d9d9d9] bg-[#f7f7f7] px-6 py-6 md:hidden">
           <nav className="flex flex-col gap-5">
-            <a
-              href="/INDEX.html"
-              className="text-base font-semibold text-[#1e293b] transition hover:text-[#ff6500]"
+            <NavLink
+              to="/"
+              end
+              onClick={() => setMenuOpen(false)}
+              className={navLinkStyles}
             >
               Inicio
-            </a>
+            </NavLink>
 
-            <a
-              href="/INDEX.html#sobreNosotros"
-              className="text-base font-semibold text-[#1e293b] transition hover:text-[#ff6500]"
+            <NavLink
+              to="/nosotros"
+              onClick={() => setMenuOpen(false)}
+              className={navLinkStyles}
             >
               Nosotros
-            </a>
+            </NavLink>
 
             <NavLink
               to="/productos"

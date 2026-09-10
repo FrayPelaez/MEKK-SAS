@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+
 import { products } from "../data/products";
 import ProductRow from "../components/products/productrow";
 import ProductSearch from "../components/products/productsearch";
@@ -9,6 +11,8 @@ import Pagination from "../components/products/pagination";
 const PRODUCTS_PER_PAGE = 16;
 
 export default function Products() {
+  const [searchParams] = useSearchParams();
+
   const [search, setSearch] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [sortOrder, setSortOrder] = useState<"az" | "za">("az");
@@ -18,6 +22,8 @@ export default function Products() {
   const categories = [
     ...new Set(products.map((product) => product.category)),
   ];
+
+  console.log(categories);
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategories((currentCategories) => {
@@ -69,6 +75,17 @@ export default function Products() {
     startIndex,
     endIndex
   );
+
+  // Lee la categoría desde la URL
+  useEffect(() => {
+    const categoryFromUrl = searchParams.get("categoria");
+
+    if (categoryFromUrl) {
+      setSelectedCategories([categoryFromUrl]);
+    }
+
+    window.scrollTo(0, 0);
+  }, [searchParams]);
 
   // Regresa a la página 1 cuando cambia búsqueda, filtro o sort
   useEffect(() => {
