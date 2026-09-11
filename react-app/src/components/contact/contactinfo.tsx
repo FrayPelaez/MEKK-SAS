@@ -50,7 +50,7 @@ export default function ContactInfo() {
       <div className="mt-8">
         <a
           href="#"
-          className="inline-flex items-center justify-center rounded-lg bg-[#ff6500] px-5 py-3 text-base font-semibold leading-6 text-white transition hover:bg-[#1e293b]"
+          className="inline-flex items-center justify-center rounded-lg bg-[#ff6500] px-5 py-3 text-base font-semibold leading-6 text-white transition hover:bg-[#25d366]"
         >
           Hablar por WhatsApp
         </a>

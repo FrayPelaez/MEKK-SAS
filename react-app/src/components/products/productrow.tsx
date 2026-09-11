@@ -30,7 +30,7 @@ export default function ProductRow({ product }: ProductRowProps) {
         <div className="mt-auto flex justify-center pt-4 sm:pt-5 xl:pt-6">
           <Link
             to={`/productos/${product.id}`}
-            className="rounded-lg bg-[#f7f7f7] px-3 py-2 text-sm font-semibold leading-5 text-[#101828] transition hover:bg-[#e5e7eb] sm:px-4 sm:py-2.5 xl:px-5"
+            className="rounded-lg bg-[#ff6500] px-3 py-2 text-sm font-semibold leading-5 text-white transition hover:bg-[#b44801] sm:px-4 sm:py-2.5 xl:px-5"
           >
             Ver más
           </Link>
