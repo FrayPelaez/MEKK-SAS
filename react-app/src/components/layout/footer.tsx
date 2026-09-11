@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="mt-6 flex gap-3">
               {/* FACEBOOK */}
               <a
-                href="#"
+                href="https://www.facebook.com/mekksas"
                 aria-label="Facebook"
                 className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1e293b] text-[#cbd5e1] transition hover:bg-[#ff6500] hover:text-white"
               >
@@ -38,7 +38,7 @@ export default function Footer() {
 
               {/* INSTAGRAM */}
               <a
-                href="#"
+                href="https://www.instagram.com/mekk_sas/"
                 aria-label="Instagram"
                 className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1e293b] text-[#cbd5e1] transition hover:bg-[#ff6500] hover:text-white"
               >
@@ -53,22 +53,6 @@ export default function Footer() {
                   <rect x="3" y="3" width="18" height="18" rx="5" />
                   <circle cx="12" cy="12" r="4" />
                   <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
-                </svg>
-              </a>
-
-              {/* LINKEDIN */}
-              <a
-                href="#"
-                aria-label="LinkedIn"
-                className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1e293b] text-[#cbd5e1] transition hover:bg-[#ff6500] hover:text-white"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="h-5 w-5"
-                  aria-hidden="true"
-                >
-                  <path d="M6.5 8.5H3.8V20h2.7V8.5ZM5.1 3A1.6 1.6 0 1 0 5 6.2 1.6 1.6 0 0 0 5.1 3ZM20 13.4c0-3.5-1.9-5.1-4.4-5.1-2 0-3 1.1-3.5 1.9V8.5H9.4V20h2.7v-5.7c0-1.5.3-3 2.2-3 1.9 0 1.9 1.7 1.9 3.1V20H20v-6.6Z" />
                 </svg>
               </a>
             </div>

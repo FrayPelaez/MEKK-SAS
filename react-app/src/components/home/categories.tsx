@@ -4,37 +4,37 @@ const categories = [
   {
     name: "Cubrimientos Línea Viva",
     filter: "Cubrimientos línea viva",
-    image: "",
+    image: "/inicio/Categorias/linea-viva.jpeg",
   },
   {
     name: "Elementos de Protección Personal",
     filter: "EPP",
-    image: "",
+    image: "/inicio/Categorias/elementos-de-proteccion-personal.jpeg",
   },
   {
     name: "Escaleras Dieléctricas",
     filter: "Escaleras",
-    image: "",
+    image: "/inicio/Categorias/escaleras.jpeg",
   },
   {
     name: "Herramienta Especializada",
     filter: "Herramienta especializada",
-    image: "",
+    image: "/inicio/Categorias/herramienta-especializada.jpeg",
   },
   {
     name: "Material Eléctrico",
     filter: "Material eléctrico",
-    image: "",
+    image: "/inicio/Categorias/herramienta-aislada.jpeg",
   },
   {
     name: "Pértigas",
     filter: "Pértigas",
-    image: "",
+    image: "/inicio/Categorias/pertigas.jpeg",
   },
   {
     name: "Puestas a Tierra",
     filter: "Puestas a tierra",
-    image: "",
+    image: "/inicio/Categorias/equipo-y-sistemas-puesta-a-tierra.jpeg",
   },
 ];
 

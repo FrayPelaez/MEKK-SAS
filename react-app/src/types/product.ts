@@ -6,4 +6,6 @@ export interface Product {
   reference: string;
   image: string;
   description: string;
+  features?: string[];
+  technicalSheet?: string;
 }

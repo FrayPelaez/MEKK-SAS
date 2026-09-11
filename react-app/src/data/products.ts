@@ -12,7 +12,17 @@ export const products: Product[] = [
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo alta tension.png",
     description:
-      "Equipo de puesta a tierra para trabajos eléctricos en alta tensión.",
+      "Nuestros equipos de puesta a tierra ofrecen una solución adecuada y segura a cada una de las necesidades en la protección de sistemas de distribución con el cumplimiento de altos estándares de calidad con implementación de avanzadas tecnologías de diseño que dan cumplimiento de las normas IEC 61230 y RETIE.",
+    features: [
+      "Disponible para líneas de: 115kV ; 230kV ; 320 Kv hasta 40 kA.",
+      "(3) Pinza en aluminio atornillables capacidad máxima de conexión 90 mm.",
+      "(3) Prensa o morseto de tierra para conductores de 0 a 35 mm.",
+      "(3)  Cable bajante en cobre con cubierta transparente y terminales de oro ponchado de 90 mm de sección, entre pinza a prensar por 6m de largo.",
+      "(1) Maletín de transporte en lona impermeable resistente para guardar el equipo.",
+      "(1) Guía de instalación, inspección y mantenimiento.",
+    ],
+
+    technicalSheet: "",
   },
   {
     id: 2,
@@ -22,7 +32,17 @@ export const products: Product[] = [
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo baja tension.png",
     description:
-      "Equipo de puesta a tierra para trabajos eléctricos en baja tensión.",
+      "Nuestros equipos de puesta a tierra ofrecen una solución adecuada y segura a cada una de las necesidades en la protección de sistemas de distribución con el cumplimiento de altos estándares de calidad con implementación de avanzadas tecnologías de diseño que dan cumplimiento de las normas IEC 61230 y RETIE.",
+    features: [
+      "(4) PINZAS AUTOMATICAS con apertura desde calibre 4mm hasta 20mm, con pertiguilla aislada de 50cms.",
+      "(3) CABLE DE CONEXIÓN en cobre de 25 mm2con cubierta transparente y terminales en ojo ponchado. Separación entre pinzas 60 cms.",
+      "(1) CABLE DE CONEXIÓN en cobre de 16 mm2con cubierta transparente y terminales de ojo ponchado, de 8 mts aprox. Entre pinza y torno.",
+      "(1) PRENZA A TIERRA en bronce para conexión redonda o cuadrada con capacidad de 0 a 35mm.",
+      "(1) BARRENO de puesta a tierra helicoidal 1,5m.",
+      "(1) MALETIN Tipo mochila de transporte en lona impermeable resistente para guardar el equipo.",
+      "(1) Guía de instalación, inspección y mantenimiento.",
+    ],
+    technicalSheet: "",
   },
   {
     id: 3,
@@ -32,7 +52,23 @@ export const products: Product[] = [
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo media tension.png",
     description:
-      "Equipo de puesta a tierra para trabajos eléctricos en media tensión.",
+      "Nuestros equipos de puesta a tierra ofrecen una solución adecuada y segura a cada una de las necesidades en la protección de sistemas de distribución con el cumplimiento de altos estándares de calidad con implementación de avanzadas tecnologías de diseño que dan cumplimiento de las normas IEC 61230 y RETIE.",
+    features: [
+      "Equipo Sencillo de Puesta a Tierra y en cortocircuito para líneas hasta 34.5 KV.",
+      "(3) pinzas automáticas de preenganche para conductor de 0 a 22mm, 10 icc (kA/1s).",
+      "(2) Cables de conexión en cobre de 35 mm² con cubierta transparente y terminales de ojo ponchado entre pinzas 2.05m de longitud.",
+      "(1) Cable bajante en cobre de 35 mm² con cubierta transparente y terminales de ojo ponchado, entre pinzas 2.05m de longitud.",
+      "(1) Cable bajante en cobre de 35 mm² con cubierta transparente y terminales de ojo ponchado, entre silleta de 6m de longitud.",
+      "(3) Prensa o morsetos de tierra para conductores de 0 a 22mm 6icc (kA/1s).",
+      "(1) Silleta equipotencial.",
+      "(1) Plato porta pinza o trapecio.",
+      "(1) Barreno o jabalina de puesta a tierra de 1,5m.",
+      "(1) Pértiga de dos secciones de acople universal en fibra de vidrio2.40m.",
+      "(1) Funda de transporte en lona impermeable resistente para pértiga y barreno.",
+      "(1) Maletín de transporte en lona impermeable resistente para guardar el equipo.",
+      "(1) Guía de instalación del equipo.",
+    ],
+    technicalSheet: "",
   },
   {
     id: 4,
@@ -43,7 +79,16 @@ export const products: Product[] = [
     image:
       "/imgs/productos/puestas a tierra/equipo puesta a tierra tipo caiman.png",
     description:
-      "Equipo de puesta a tierra tipo caimán para trabajos eléctricos.",
+      "El equipo de puesta a tierra de baja tensión de tipo CAIMÁN representa un componente esencial en los sistemas eléctricos de baja tensión, siendo fundamental para salvaguardar la integridad de instalaciones residenciales, comerciales e industriales. Este sistema se compone de electrodos estratégicamente enterrados y conectados a un conductor anular, desempeñando un papel crucial al disipar la corriente eléctrica hacia la tierra. Su función principal radica en proporcionar una ruta segura y eficiente para la corriente de falla, lo que minimiza el riesgo de descargas eléctricas y protege tanto los equipos como la seguridad de las personas que interactúan en estos entornos. Al asegurar una trayectoria controlada para la corriente excedente, este método no solo resguarda contra posibles accidentes eléctricos, sino que también contribuye a preservar la integridad operativa de los dispositivos y sistemas conectados a la red eléctrica.",
+    features: [
+      "(4) Pinzas tipo caimán en aleación de aluminio con apertura desde calibre 4mm hasta 20mm, mangos aislados de 18cm, en colores rojo para la fase y negro para el neutro. Con terminales tipo ojo para conexión de la pinza y los cables de conexión (3 de fase y 1 neutro).",
+      "(3) Cables de conexión entre pinza en cobre de 16mm2 con cubierta transparente y terminales en ojo ponchado, separación entre pinzas 60 cm.",
+      "(1) Cable bajante en cobre de 16 mm2 con cubierta transparente y terminales de ojo ponchado de 8 m aprox. entre pinza y tomo.",
+      "(1) Prensa a tierra en bronce para conexión redonda o cuadrada con capacidad de 0 a 35 mm2.",
+      "(1) Barreno o jabalina de puesta a tierra helicoidal de 1,5 m.",
+      "(1) Maletín de transporte en lona impermeable resistente para guardar el equipo.",
+    ],
+    technicalSheet: "",
   },
   {
     id: 5,
@@ -53,7 +98,16 @@ export const products: Product[] = [
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/sistema baja tension.png",
     description:
-      "Sistema de puesta a tierra para instalaciones de baja tensión.",
+      "Nuestros sistemas de puesta a tierra permanentes ofrecen una solución adecuada y segura a cada una de las necesidades en la protección de sistemas de distribución con el cumplimiento de altos estándares de calidad con implementación de avanzadas tecnologías de diseño que dan cumplimiento de las normas IEC 61230 y RETIE.",
+    features: [
+      "(1) conductor bajante a tierra en acero inoxidable austenítico 304 de 7/8″ de ancho x 1.2mm de espesor x 8m de longitud.",
+      "(1) Transductor de 20 cm acoplado en un extremo y preforma en el otro.",
+      "(4) Conjunto abrazadera sujeción a poste enacero inoxidable austenítico tipo 304 de 3/8″ de ancho x 1.2m de longitud con hebilla de 3/8″.",
+      "(1) Electrodo a tierra en acero inoxidable tipo 304 de 2.40 de largo.",
+      "(1) Conector en u fleje-varilla en acero inoxidable austenítico 304 con tornillo de 3/8″.",
+      "(1) Manual de instalación",
+    ],
+    technicalSheet: "",
   },
   {
     id: 6,
@@ -63,7 +117,19 @@ export const products: Product[] = [
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/sistema media tension.png",
     description:
-      "Sistema de puesta a tierra para instalaciones de media tensión.",
+      "Nuestros sistemas de puesta a tierra permanentes ofrecen una solución adecuada y segura a cada una de las necesidades en la protección de sistemas de distribución con el cumplimiento de altos estándares de calidad con implementación de avanzadas tecnologías de diseño que dan cumplimiento de las normas IEC 61230 y RETIE.",
+    features: [
+      "(1) conductor bajante a tierra en acero inoxidable austenítico 304 de 7/8″ de ancho x 1.2mm de espesor x 11m de longitud.",
+      "(1) Conductor bajante neutro transformador en acero inoxidable austenítico 304 de 7/8″ de ancho  1.2mm de espesor 1mde largo con perforación de 1/2 a 2 cm de uno de los extremos.",
+      "(1) Conductor conector entre pararrayo en acero inoxidable austenítico de 304 de 7/8″ de ancho  1.2mm de espesor  2.20mde largo con perforación de 1/2 con centro a 2 cm de uno de los extremos.",
+      "(2) Conector tipo J DPS – fleje  en acero inoxidable austenítico 304 con tornillo de 3/8″.",
+      "(4) Conjunto abrazadera a poste en acero inoxidable austenítico 304 con tornillo de 3/8″ de ancho  1.2m de longitud  0.70mm con hebilla.",
+      "(1) Conector tipo C  fleje – fleje  en acero inoxidable austenítico 304 con tornillo de 3/8″.",
+      "(1) electrodo a tierra en acero inoxidable austenítico 304 de 2.70 m de largo.",
+      "(1) Conector en U fleje – varilla  en acero inoxidable austenítico 304.",
+      "(1) Manual de instalación",
+    ],
+    technicalSheet: "",
   },
 
   // =========================================================

@@ -39,7 +39,7 @@ export default function AboutPreview() {
 
           <div className="mt-7">
             <a
-              href="/contacto"
+              href="/nosotros"
               className="inline-flex items-center justify-center rounded-lg bg-[#ff6500] px-6 py-3 text-base font-semibold leading-6 text-white transition hover:bg-[#b44801]"
             >
               Sobre la empresa
