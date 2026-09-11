@@ -63,6 +63,24 @@ export default function ProductDetail() {
       ? product.technicalSheet
       : "";
 
+  const technicalDescription =
+    "technicalDescription" in product &&
+    typeof product.technicalDescription === "string"
+      ? product.technicalDescription
+      : "";
+
+  const specifications =
+    "specifications" in product &&
+    product.specifications
+      ? product.specifications
+      : null;
+
+  const faq =
+    "faq" in product &&
+    Array.isArray(product.faq)
+      ? product.faq
+      : [];
+
   const relatedProducts = products
     .filter(
       (item) =>
@@ -349,6 +367,125 @@ export default function ProductDetail() {
             </div>
           </div>
         </div>
+
+        {/* DESCRIPCIÓN TÉCNICA - SOLO PÉRTIGAS */}
+        {product.category === "Pértigas" &&
+          technicalDescription && (
+            <section className="mt-14 border-t border-[#d9d9d9] pt-10">
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#c94f00]">
+                Información adicional
+              </p>
+
+              <h2 className="mt-2 text-3xl font-bold text-[#101828]">
+                Descripción técnica
+              </h2>
+
+              <p className="mt-5 text-base leading-7 text-[#334155]">
+                {technicalDescription}
+              </p>
+            </section>
+          )}
+
+        {/* ESPECIFICACIONES TÉCNICAS - SOLO PÉRTIGAS */}
+        {product.category === "Pértigas" &&
+          specifications && (
+            <section className="mt-10">
+              <h2 className="text-2xl font-bold text-[#101828]">
+                Especificaciones técnicas
+              </h2>
+
+              <div className="mt-6 overflow-x-auto rounded-xl border border-[#d9d9d9] bg-white">
+                <table className="w-full min-w-[700px] border-collapse">
+                  <thead>
+                    <tr className="bg-[#f7f7f7]">
+                      {specifications.headers.map(
+                        (header, index) => (
+                          <th
+                            key={`${header}-${index}`}
+                            className="border-r border-[#d9d9d9] px-5 py-4 text-left text-sm font-bold text-[#101828] last:border-r-0"
+                          >
+                            {header}
+                          </th>
+                        )
+                      )}
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {specifications.rows.map(
+                      (row, rowIndex) => (
+                        <tr key={rowIndex}>
+                          {row.map(
+                            (cell, cellIndex) => (
+                              <td
+                                key={`${cell}-${cellIndex}`}
+                                className="border-r border-t border-[#d9d9d9] px-5 py-4 text-base text-[#334155] last:border-r-0"
+                              >
+                                {cell}
+                              </td>
+                            )
+                          )}
+                        </tr>
+                      )
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          )}
+
+        {/* FAQ - SOLO PÉRTIGAS */}
+        {product.category === "Pértigas" &&
+          faq.length > 0 && (
+            <section className="mt-12">
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#c94f00]">
+                Resolvemos tus dudas
+              </p>
+
+              <h2 className="mt-2 text-3xl font-bold text-[#101828]">
+                Preguntas frecuentes
+              </h2>
+
+              <div className="mt-6 space-y-4">
+                {faq.map((item, index) => (
+                  <details
+                    key={`${item.question}-${index}`}
+                    className="group rounded-xl border border-[#d9d9d9] bg-white p-5"
+                  >
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-bold text-[#101828]">
+                      <span>{item.question}</span>
+
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f7f7f7] text-[#c94f00] transition group-open:rotate-45">
+                        +
+                      </span>
+                    </summary>
+
+                    <div className="mt-4 border-t border-[#d9d9d9] pt-4">
+                      <p className="text-base leading-7 text-[#334155]">
+                        {item.answer}
+                      </p>
+
+                      {item.points &&
+                        item.points.length > 0 && (
+                          <ul className="mt-4 space-y-2 pl-5">
+                            {item.points.map(
+                              (point, pointIndex) => (
+                                <li
+                                  key={`${point}-${pointIndex}`}
+                                  className="list-disc text-base leading-7 text-[#334155]"
+                                >
+                                  {point}
+                                </li>
+                              )
+                            )}
+                          </ul>
+                        )}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
 
         {/* BLOQUE DE AYUDA */}
         <div className="mt-14 flex flex-col gap-5 rounded-2xl border border-[#d9d9d9] bg-white p-6 sm:flex-row sm:items-center sm:justify-between lg:p-8">

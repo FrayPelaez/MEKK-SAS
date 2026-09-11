@@ -142,8 +142,60 @@ export const products: Product[] = [
     brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertiga escopeta.png",
+
     description:
-      "Pértiga tipo escopeta para maniobras y trabajos en sistemas eléctricos.",
+      "La pértiga tipo escopeta cuenta con un gancho retráctil accionado por un mango que se desliza a lo largo de la pértiga controlando la apertura del gancho. Aunque está diseñada principalmente para colocar grapas para trabajo en línea viva y de puesta a tierra, puede usarse tanto en líneas aéreas como subterráneas empleando los accesorios pertinentes.",
+
+    features: [
+      "No usar cuando la pértiga se encuentre húmeda, fracturada o en mal estado.",
+      "No utilizar en equipos electrificados con tensión de operación mayor a la indicada.",
+      "El área protegida es hasta la guarda al final de la empuñadura.",
+    ],
+
+    technicalSheet: "",
+
+    technicalDescription:
+      "Este tipo de pértiga tiene una longitud fija y su mecanismo de acción es interno lo que proporciona un mayor tiempo de vida útil. Este tipo de pértiga es apta para realizar trabajos en líneas de tensión que se consideran energizadas, permitiendo al operador ubicarse desde una distancia segura. Están hechas en fibra de vidrio con excelentes propiedades dieléctricas y una buena resistencia mecánica. Todas las pértigas están fabricadas para cumplir con los estándares de prueba de 100 kV por pie.",
+
+    specifications: {
+      headers: ["Longitud (m)", "1.4", "2", "2.6", "3.2", "3.8"],
+      rows: [["Peso (kgs)", "1.9", "2.2", "2.6", "2.9", "3.2"]],
+    },
+
+    faq: [
+      {
+        question: "¿Cómo garantizar la seguridad al usar una pértiga escopeta?",
+        answer:
+          "Para usar una pértiga escopeta de manera segura, sigue estas recomendaciones clave:",
+        points: [
+          "Inspección previa: Examina visualmente la pértiga para identificar daños, grietas o suciedad antes de cada uso.",
+          "Mantenimiento adecuado: Mantén la pértiga limpia, seca y libre de contaminantes que puedan comprometer su resistencia dieléctrica.",
+          "Uso de equipo de protección personal: Lleva guantes y botas dieléctricas homologadas para evitar riesgos eléctricos.",
+          "Entrenamiento especializado: Asegúrate de recibir capacitación adecuada para operar la pértiga de forma eficiente y segura.",
+        ],
+      },
+      {
+        question: "¿Cuál es la función del gancho en una pértiga escopeta?",
+        answer:
+          "El gancho de la pértiga escopeta está diseñado para facilitar tareas específicas en sistemas eléctricos, como:",
+        points: [
+          "Manipulación de componentes eléctricos: Mover, sostener o ajustar piezas en líneas energizadas.",
+          "Desconexión y conexión de equipos: Realizar maniobras seguras sin contacto directo.",
+          "Operaciones en líneas eléctricas: Asegurar maniobras seguras en ambientes de alto riesgo.",
+        ],
+      },
+      {
+        question:
+          "¿Por qué es importante la flexibilidad de la fibra de vidrio en una pértiga escopeta?",
+        answer:
+          "La fibra de vidrio proporciona una combinación ideal de resistencia y flexibilidad que mejora la seguridad:",
+        points: [
+          "Absorción de impactos: Reduce el riesgo de fracturas al adaptarse a tensiones mecánicas.",
+          "Estabilidad estructural: Mantiene su forma y funcionalidad incluso bajo condiciones de carga intensa.",
+          "Durabilidad: Resiste deformaciones y daños en condiciones extremas, como temperaturas altas, humedad o exposición prolongada al sol.",
+        ],
+      },
+    ],
   },
   {
     id: 8,
@@ -152,10 +204,70 @@ export const products: Product[] = [
     brand: "Hastings",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertigaHasting.png",
-    description:
-      "Pértiga Hastings para trabajos y maniobras en instalaciones eléctricas.",
-  },
 
+    description:
+      "La pértiga Hastings de MEKK SAS está diseñada para proporcionar máximo alcance, seguridad y comodidad en operaciones eléctricas y de altura. Gracias a su fabricación en fibra de vidrio de grado eléctrico, ofrece una resistencia dieléctrica superior, garantizando protección contra descargas y facilitando el trabajo en condiciones de alto riesgo. Esta pértiga telescópica está diseñada para resistir condiciones extremas y proporcionar una manipulación precisa, siendo una opción ideal para trabajos eléctricos, mantenimiento de líneas de alta tensión y operaciones en altura que requieren seguridad y confiabilidad.",
+
+    features: [
+      "Sistema telescópico innovador: Su diseño retráctil permite ajustar la longitud según la necesidad, optimizando el almacenamiento y facilitando la limpieza interna.",
+      "Ergonomía y ligereza: Reduce la fatiga del operario y mejora la maniobrabilidad en trabajos prolongados.",
+      "Mayor estabilidad y control: Su estructura minimiza la flexión en la punta, ofreciendo una precisión superior respecto a las pértigas convencionales de sección redonda.",
+      "Visibilidad mejorada en entornos oscuros: La sección superior fluorescente incrementa la seguridad, permitiendo una rápida identificación del extremo de la pértiga en condiciones de poca iluminación.",
+    ],
+
+    technicalSheet: "",
+
+    technicalDescription:
+      "La pértiga Hastings dieléctrica de MEKK SAS está diseñada para ofrecer seguridad, precisión y durabilidad en trabajos eléctricos de alto riesgo. Gracias a su fabricación en fibra de vidrio de grado eléctrico, garantiza una alta resistencia dieléctrica, protegiendo a los operarios de descargas eléctricas. Con un sistema telescópico innovador, permite ajustar su longitud según la necesidad, facilitando su almacenamiento, transporte y maniobrabilidad sin comprometer la estabilidad ni la seguridad del usuario.",
+
+    specifications: {
+      headers: ["Referencia", "HV-208", "HV-225", "HV-230", "HV-235", "HV-240"],
+      rows: [
+        [
+          "Largo Máximo",
+          "2.44 metros",
+          "7.77 metros",
+          "9.1 metros",
+          "10.6 metros",
+          "12 metros",
+        ],
+        [
+          "Largo Mínimo",
+          "0.66 metros",
+          "1.62 metros",
+          "1.67 metros",
+          "1.72 metros",
+          "1.75 metros",
+        ],
+        ["Número de secciones", "5", "6", "7", "8", "9"],
+        ["Diámetro de la base", "45 mm", "48 mm", "53 mm", "56 mm", "60 mm"],
+        ["Peso", "1.4 kgs", "3.7 kgs", "4.5 kgs", "5.5 kgs", "6.5 kgs"],
+      ],
+    },
+
+    faq: [
+      {
+        question: "¿Qué longitud tienen las pértigas Hastings?",
+        answer:
+          "Las pértigas vienen en distintas longitudes ajustables. Contáctanos para conocer la medida que mejor se adapte a tus necesidades.",
+      },
+      {
+        question: "¿Cuánto pesan las pértigas Hastings?",
+        answer:
+          "Gracias a su construcción en fibra de vidrio, son ligeras y fáciles de manipular, reduciendo el esfuerzo del operario.",
+      },
+      {
+        question: "¿Son resistentes a la intemperie?",
+        answer:
+          "Sí, están diseñadas para resistir humedad, rayos UV y temperaturas extremas sin comprometer su desempeño.",
+      },
+      {
+        question: "¿Cuentan con certificaciones de seguridad?",
+        answer:
+          "Sí, nuestras pértigas cumplen con las normativas IEC 60855, asegurando su confiabilidad en trabajos eléctricos de alto riesgo.",
+      },
+    ],
+  },
   // =========================================================
   // EPP
   // =========================================================
