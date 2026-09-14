@@ -3,10 +3,10 @@ export default function AboutPreview() {
     <section
       id="sobreNosotros"
       className="
-        relative flex min-h-[760px] items-start overflow-hidden
-        bg-white bg-[length:auto_58%] bg-right-bottom bg-no-repeat
+        relative flex min-h-[860px] items-start overflow-hidden
+        bg-white bg-[length:auto_58%] bg-[position:calc(100%+18px)_calc(100%+18px)] bg-no-repeat
         px-6 py-14
-        sm:min-h-[780px] sm:bg-[length:auto_62%]
+        sm:min-h-[900px] sm:bg-[length:auto_62%] sm:bg-right-bottom
         md:min-h-[680px] md:items-center md:bg-cover md:bg-center md:py-16
         lg:min-h-[720px]
       "

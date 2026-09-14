@@ -282,7 +282,7 @@ export const products: Product[] = [
       "Cobertura extendida para protección del cuello y hombros.",
       "Compatible con casco dieléctrico, careta facial y otros EPP.",
     ],
-    technicalSheet:"",
+    technicalSheet: "",
   },
   {
     id: 10,
@@ -299,13 +299,13 @@ export const products: Product[] = [
       "Lleva reata ajustable.",
       "Cremallera negra ajustable.",
     ],
-    technicalSheet:"",
+    technicalSheet: "",
   },
   {
     id: 11,
     name: "Capuchones aislados",
     category: "EPP",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/epps/capuchones aislados.png",
     description:
@@ -315,7 +315,7 @@ export const products: Product[] = [
     id: 12,
     name: "Careta de protección",
     category: "EPP",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/epps/careta de proteccion.png",
     description:
@@ -325,7 +325,7 @@ export const products: Product[] = [
     id: 13,
     name: "Casco de seguridad tipo II",
     category: "EPP",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/epps/casco de seguridad tipo II.png",
     description:
@@ -335,7 +335,7 @@ export const products: Product[] = [
     id: 14,
     name: "Cuchillo pelacable aislado 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image: "/imgs/productos/epps/cuchillo pela cable aislados 1000V.jpg",
     description:
@@ -345,7 +345,7 @@ export const products: Product[] = [
     id: 15,
     name: "Juego de dados con ratchet aislados a 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image:
       "/imgs/productos/epps/juego de dados con ratchet aislados a 1000v.jpg",
@@ -356,7 +356,7 @@ export const products: Product[] = [
     id: 16,
     name: "Juego de destornilladores aislados a 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image:
       "/imgs/productos/epps/juego de destornilladores aislados a 1000V.jpg",
@@ -367,7 +367,7 @@ export const products: Product[] = [
     id: 17,
     name: "Llave ajustable aislada 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image: "/imgs/productos/epps/llave ajustable aislada 1000v.jpg",
     description:
@@ -377,7 +377,7 @@ export const products: Product[] = [
     id: 18,
     name: "Llaves fijas aisladas a 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image: "/imgs/productos/epps/llaves fijas aisladas a 1000v.jpg",
     description:
@@ -387,7 +387,7 @@ export const products: Product[] = [
     id: 19,
     name: "Pinza de punta aislada 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image: "/imgs/productos/epps/pinza de punta aislada 1000v.jpg",
     description: "Pinza de punta aislada para trabajos eléctricos hasta 1000V.",
@@ -396,7 +396,7 @@ export const products: Product[] = [
     id: 20,
     name: "Segueta aislada 1000V",
     category: "EPP",
-    brand: "N/A",
+
     reference: "1000V",
     image: "/imgs/productos/epps/segueta aislada 1000V.jpg",
     description:
@@ -410,7 +410,7 @@ export const products: Product[] = [
     id: 21,
     name: "Apoya poste",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/apoya poste.png",
     description:
@@ -420,7 +420,7 @@ export const products: Product[] = [
     id: 22,
     name: "Escalera de extensión dieléctrica",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/escalera de extension dielectrica.png",
     description: "Escalera de extensión dieléctrica para trabajos eléctricos.",
@@ -429,7 +429,7 @@ export const products: Product[] = [
     id: 23,
     name: "Escalera sencilla dieléctrica",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/escalera sencilla dielectrica.png",
     description:
@@ -439,7 +439,7 @@ export const products: Product[] = [
     id: 24,
     name: "Escalera tipo tijera dieléctrica",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/escalera tipo tijera dielectrica.png",
     description:
@@ -449,7 +449,7 @@ export const products: Product[] = [
     id: 25,
     name: "Escaleras",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/escaleras.png",
     description:
@@ -459,7 +459,7 @@ export const products: Product[] = [
     id: 26,
     name: "Niveladores para escaleras",
     category: "Escaleras",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/escaleras/niveladores para escaleras.jpg",
     description:
@@ -473,7 +473,7 @@ export const products: Product[] = [
     id: 27,
     name: "Cobertor aislador de pin clase 2",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 2",
     image:
       "/imgs/productos/cubrimientos linea viva/cobertor aislador de pin clase 2.png",
@@ -484,7 +484,7 @@ export const products: Product[] = [
     id: 28,
     name: "Cobertor aislador de suspensión",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image:
       "/imgs/productos/cubrimientos linea viva/cobertor aislador de suspension.png",
@@ -495,7 +495,7 @@ export const products: Product[] = [
     id: 29,
     name: "Cobertor corta circuito",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image:
       "/imgs/productos/cubrimientos linea viva/cobertor corta circuito .png",
@@ -505,7 +505,7 @@ export const products: Product[] = [
     id: 30,
     name: "Cobertor para cruceta clase 2",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 2",
     image:
       "/imgs/productos/cubrimientos linea viva/cobertor para cruceta clase 2.png",
@@ -516,7 +516,7 @@ export const products: Product[] = [
     id: 31,
     name: "Cobertor para cruceta clase 4",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 4",
     image:
       "/imgs/productos/cubrimientos linea viva/cobertor para cruceta clase 4.png",
@@ -527,7 +527,7 @@ export const products: Product[] = [
     id: 32,
     name: "Cono de señalización",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/cubrimientos linea viva/cono de señalizacion.png",
     description:
@@ -537,7 +537,7 @@ export const products: Product[] = [
     id: 33,
     name: "Cubridor de estribos clase 4",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 4",
     image:
       "/imgs/productos/cubrimientos linea viva/cubridor de estribos clase 4.png",
@@ -548,7 +548,7 @@ export const products: Product[] = [
     id: 34,
     name: "Cubridor de punta poste clase 3",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 3",
     image:
       "/imgs/productos/cubrimientos linea viva/cubridor de punta poste clase 3.png",
@@ -559,7 +559,7 @@ export const products: Product[] = [
     id: 35,
     name: "Jumper",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/cubrimientos linea viva/jumper.png",
     description:
@@ -569,7 +569,7 @@ export const products: Product[] = [
     id: 36,
     name: "Manta dieléctrica abierta clase 2",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 2",
     image:
       "/imgs/productos/cubrimientos linea viva/manta dielectrica  abierta clase 2.png",
@@ -580,7 +580,7 @@ export const products: Product[] = [
     id: 37,
     name: "Manta dieléctrica cerrada clase 2",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 2",
     image:
       "/imgs/productos/cubrimientos linea viva/manta dielectrica cerrada clase 2.png",
@@ -591,7 +591,7 @@ export const products: Product[] = [
     id: 38,
     name: "Pinza dieléctrica",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/cubrimientos linea viva/pinza dielectrica.png",
     description:
@@ -601,7 +601,7 @@ export const products: Product[] = [
     id: 39,
     name: "Protector de cadena rígido clase 4",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 4",
     image:
       "/imgs/productos/cubrimientos linea viva/PROTECTOR DE CADENA RIGIDO CLASE 4.png",
@@ -612,7 +612,7 @@ export const products: Product[] = [
     id: 40,
     name: "Protector de poste clase 4",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "Clase 4",
     image:
       "/imgs/productos/cubrimientos linea viva/protector de poste clase 4.png",
@@ -623,7 +623,7 @@ export const products: Product[] = [
     id: 41,
     name: "Tapete dieléctrico",
     category: "Cubrimientos línea viva",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/cubrimientos linea viva/tapete dielectrico.png",
     description:
@@ -637,7 +637,7 @@ export const products: Product[] = [
     id: 42,
     name: "Barra dieléctrica",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/barra dielectrica.png",
     description: "Barra dieléctrica para trabajos eléctricos especializados.",
@@ -646,7 +646,7 @@ export const products: Product[] = [
     id: 43,
     name: "Capuchones aislados",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/capuchones aislados.png",
     description:
@@ -656,7 +656,7 @@ export const products: Product[] = [
     id: 44,
     name: "Cizalla aislada",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/cizalla aislada.png",
     description:
@@ -666,7 +666,7 @@ export const products: Product[] = [
     id: 45,
     name: "Cizalla pico de loro aislada",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image:
       "/imgs/productos/material electrico/cizalla pico de loro aislada.png",
@@ -676,7 +676,7 @@ export const products: Product[] = [
     id: 46,
     name: "Cortador de cable aislado",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/cortador de cable aislado.png",
     description:
@@ -686,7 +686,7 @@ export const products: Product[] = [
     id: 47,
     name: "Cubridor de cañuela",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/cubridor de cañuela.png",
     description: "Cubridor de cañuela para protección en trabajos eléctricos.",
@@ -695,7 +695,7 @@ export const products: Product[] = [
     id: 48,
     name: "Desviador de vuelo",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/desviador de vuelo.png",
     description:
@@ -705,7 +705,7 @@ export const products: Product[] = [
     id: 49,
     name: "Diferencial aislada",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/diferencial aislada.png",
     description: "Diferencial aislada para trabajos eléctricos especializados.",
@@ -714,7 +714,7 @@ export const products: Product[] = [
     id: 50,
     name: "Gancho colgador dieléctrico",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/gancho colgador dielectrico.jpg",
     description: "Gancho colgador dieléctrico para aplicaciones eléctricas.",
@@ -723,7 +723,7 @@ export const products: Product[] = [
     id: 51,
     name: "Gancho espiral dieléctrico",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/material electrico/gancho espiral dielectrico.png",
     description: "Gancho espiral dieléctrico para trabajos eléctricos.",
@@ -732,7 +732,7 @@ export const products: Product[] = [
     id: 52,
     name: "Pisón 2.20 m",
     category: "Material eléctrico",
-    brand: "N/A",
+
     reference: "2.20 m",
     image: "/imgs/productos/material electrico/pison 2.20m.png",
     description:
@@ -746,7 +746,7 @@ export const products: Product[] = [
     id: 53,
     name: "Ampact",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/ampact.png",
     description:
@@ -756,7 +756,7 @@ export const products: Product[] = [
     id: 54,
     name: "Antenalla 1656-20",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "1656-20",
     image: "/imgs/productos/herramienta especializada/antenalla 1656-20.png",
     description: "Antenalla para sujeción y trabajos especializados.",
@@ -765,7 +765,7 @@ export const products: Product[] = [
     id: 55,
     name: "Antenalla 1656-30",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "1656-30",
     image: "/imgs/productos/herramienta especializada/antenalla 1656-30.png",
     description: "Antenalla para sujeción y trabajos especializados.",
@@ -774,7 +774,7 @@ export const products: Product[] = [
     id: 56,
     name: "Antenalla 1656-40",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "1656-40",
     image: "/imgs/productos/herramienta especializada/antenalla 1656-40.png",
     description: "Antenalla para sujeción y trabajos especializados.",
@@ -783,7 +783,7 @@ export const products: Product[] = [
     id: 57,
     name: "Antenalla Haven 1 Ton",
     category: "Herramienta especializada",
-    brand: "Haven",
+
     reference: "1 Ton",
     image:
       "/imgs/productos/herramienta especializada/antenalla Haven 1ton - copia (2).jpg",
@@ -793,7 +793,7 @@ export const products: Product[] = [
     id: 58,
     name: "Antenalla Haven 2 Ton",
     category: "Herramienta especializada",
-    brand: "Haven",
+
     reference: "2 Ton",
     image:
       "/imgs/productos/herramienta especializada/antenalla Haven 2ton - copia.jpg",
@@ -803,7 +803,7 @@ export const products: Product[] = [
     id: 59,
     name: "Antenalla Haven 3 Ton",
     category: "Herramienta especializada",
-    brand: "Haven",
+
     reference: "3 Ton",
     image: "/imgs/productos/herramienta especializada/antenalla Haven 3ton.jpg",
     description: "Antenalla Haven con capacidad de tres toneladas.",
@@ -812,7 +812,7 @@ export const products: Product[] = [
     id: 60,
     name: "Antenallas",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/antenallas.png",
     description:
@@ -822,7 +822,7 @@ export const products: Product[] = [
     id: 61,
     name: "Detector de tensión por contacto",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image:
       "/imgs/productos/herramienta especializada/detector de tension por contacto.jpg",
@@ -833,7 +833,7 @@ export const products: Product[] = [
     id: 62,
     name: "Detector HP277",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "HP277",
     image: "/imgs/productos/herramienta especializada/detector hp277.jpg",
     description:
@@ -843,7 +843,7 @@ export const products: Product[] = [
     id: 63,
     name: "Detector SEW",
     category: "Herramienta especializada",
-    brand: "SEW",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/detector sew.png",
     description:
@@ -853,7 +853,7 @@ export const products: Product[] = [
     id: 64,
     name: "Detector tipo lápiz",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/detectortipolapiz.png",
     description: "Detector compacto tipo lápiz para trabajos eléctricos.",
@@ -862,7 +862,7 @@ export const products: Product[] = [
     id: 65,
     name: "Freno Yoke",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/freno yoke.png",
     description: "Freno Yoke para trabajos y aplicaciones especializadas.",
@@ -871,7 +871,7 @@ export const products: Product[] = [
     id: 66,
     name: "Garrucha",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/garrucha.png",
     description: "Garrucha para levantamiento y trabajos especializados.",
@@ -880,7 +880,7 @@ export const products: Product[] = [
     id: 67,
     name: "ID",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/id.png",
     description: "Herramienta especializada para aplicaciones eléctricas.",
@@ -889,7 +889,7 @@ export const products: Product[] = [
     id: 68,
     name: "Jack Jumper",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/jack jumper.png",
     description:
@@ -899,7 +899,7 @@ export const products: Product[] = [
     id: 69,
     name: "Load Ranger",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/load ranger.jpg",
     description:
@@ -909,7 +909,7 @@ export const products: Product[] = [
     id: 70,
     name: "LoadBuster",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/loadBuster.jpg",
     description:
@@ -919,7 +919,7 @@ export const products: Product[] = [
     id: 71,
     name: "Pelacable ecológico",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/pelacable ecologico.jpg",
     description:
@@ -929,7 +929,7 @@ export const products: Product[] = [
     id: 72,
     name: "Pinza amperimétrica UNI-T UT202A",
     category: "Herramienta especializada",
-    brand: "UNI-T",
+
     reference: "UT202A",
     image:
       "/imgs/productos/herramienta especializada/pinza amperimetrica unit ut202A.jpg",
@@ -939,7 +939,7 @@ export const products: Product[] = [
     id: 73,
     name: "Pinza SensorLink",
     category: "Herramienta especializada",
-    brand: "SensorLink",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/pinza sensorLink.jpg",
     description: "Pinza SensorLink para medición y trabajos especializados.",
@@ -948,7 +948,7 @@ export const products: Product[] = [
     id: 74,
     name: "Ponchadora hidráulica YQK-300",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "YQK-300",
     image:
       "/imgs/productos/herramienta especializada/ponchadora hidraulica YQK-300.jpg",
@@ -959,7 +959,7 @@ export const products: Product[] = [
     id: 75,
     name: "Ponchadora hidráulica YQK-400",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "YQK-400",
     image:
       "/imgs/productos/herramienta especializada/ponchadora hidraulica YQK-400.jpg.png",
@@ -970,7 +970,7 @@ export const products: Product[] = [
     id: 76,
     name: "Riolas",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/riolas.jpg",
     description:
@@ -980,7 +980,7 @@ export const products: Product[] = [
     id: 77,
     name: "Zunchadora",
     category: "Herramienta especializada",
-    brand: "N/A",
+
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/zunchadora.png",
     description:
