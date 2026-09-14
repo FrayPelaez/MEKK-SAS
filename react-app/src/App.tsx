@@ -8,10 +8,12 @@ import Contact from "./pages/contact";
 import Home from "./pages/home";
 import About from "./pages/about";
 import ProductDetail from "./pages/productdetail";
+import PageLoader from "./components/layout/pageloader";
 
 function App() {
   return (
     <BrowserRouter>
+      <PageLoader />
       <Navbar />
 
       <Routes>
