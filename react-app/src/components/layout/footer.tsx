@@ -203,9 +203,32 @@ export default function Footer() {
         {/* COPYRIGHT */}
         <div className="mt-12 border-t border-[#2d3748] pt-6">
           <div className="flex flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
-            <p className="text-sm font-normal leading-5 text-[#cbd5e1]">
-              © 2026 Diego Galvis / Fray Pelaez. Todos los derechos reservados.
-            </p>
+            <div>
+              <p className="text-sm font-normal leading-5 text-[#cbd5e1]">
+                © 2026 MEKK S.A.S. Todos los derechos reservados.
+              </p>
+
+              <p className="mt-1 text-sm font-normal leading-5 text-[#64748b]">
+                Diseño y desarrollo web por{" "}
+                <a
+                  href="https://portfolio-next-tan-five.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-[#cbd5e1] transition hover:text-[#ff6500]"
+                >
+                  Diego Galvis
+                </a>
+                {" · "}
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-[#cbd5e1] transition hover:text-[#ff6500]"
+                >
+                  Fray Pelaez
+                </a>
+              </p>
+            </div>
 
             <p className="text-sm font-normal leading-5 text-[#64748b]">
               MEKK S.A.S.
