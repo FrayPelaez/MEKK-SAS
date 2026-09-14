@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { contactWhatsApp } from "../../services/whatsapp";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,6 +11,12 @@ export default function Navbar() {
         ? "text-[#ff6500]"
         : "text-[#1e293b] hover:text-[#ff6500]"
     }`;
+
+  const handleWhatsApp = () => {
+    contactWhatsApp(
+      "Hola, estoy interesado en recibir información y cotizar productos con MEKK S.A.S."
+    );
+  };
 
   return (
     <header className="sticky top-0 z-50 h-20 border-b border-[#d9d9d9] bg-[#f7f7f7]">
@@ -48,10 +55,9 @@ export default function Navbar() {
         </nav>
 
         {/* WHATSAPP DESKTOP */}
-        <a
-          href="https://wa.me/573142898780"
-          target="_blank"
-          rel="noreferrer"
+        <button
+          type="button"
+          onClick={handleWhatsApp}
           className="hidden items-center justify-center gap-2 rounded-[18px] bg-[#ff6500] px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-[#25d366] md:flex"
         >
           <svg
@@ -72,7 +78,7 @@ export default function Navbar() {
           </svg>
 
           Cotizar por WhatsApp
-        </a>
+        </button>
 
         {/* BOTÓN MOBILE */}
         <button
@@ -152,10 +158,12 @@ export default function Navbar() {
               Contacto
             </NavLink>
 
-            <a
-              href="https://wa.me/573142898780"
-              target="_blank"
-              rel="noreferrer"
+            <button
+              type="button"
+              onClick={() => {
+                setMenuOpen(false);
+                handleWhatsApp();
+              }}
               className="mt-2 inline-flex w-fit items-center justify-center gap-2 rounded-[18px] bg-[#ff6500] px-5 py-3 text-base font-semibold text-white transition hover:bg-[#25d366]"
             >
               <svg
@@ -180,7 +188,7 @@ export default function Navbar() {
               </svg>
 
               Cotizar por WhatsApp
-            </a>
+            </button>
           </nav>
         </div>
       )}

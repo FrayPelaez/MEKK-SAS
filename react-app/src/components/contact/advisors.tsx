@@ -2,6 +2,11 @@ import AdvisorCard from "./advisorcard";
 
 const advisors = [
   {
+    name: "Fray Pelaez",
+    emails: ["marketing.mekk07@gmail.com"],
+    phones: ["3018293357"],
+  },
+  {
     name: "Camila Gutierrez",
     emails: ["camilagutierrez.mekksas@gmail.com"],
     phones: ["3213655880"],

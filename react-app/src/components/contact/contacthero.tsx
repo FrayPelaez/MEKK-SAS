@@ -1,4 +1,12 @@
+import { contactWhatsApp } from "../../services/whatsapp";
+
 export default function ContactHero() {
+  const handleWhatsApp = () => {
+    contactWhatsApp(
+      "Hola, necesito asesoría y me gustaría recibir información sobre los productos y soluciones de MEKK S.A.S."
+    );
+  };
+
   return (
     <section className="overflow-hidden rounded-xl border border-[#d9d9d9] bg-white">
       <div className="grid md:grid-cols-2">
@@ -52,12 +60,13 @@ export default function ContactHero() {
             </p>
 
             <div className="mt-6">
-              <a
-                href="#"
+              <button
+                type="button"
+                onClick={handleWhatsApp}
                 className="inline-flex items-center justify-center rounded-lg bg-[#ff6500] px-6 py-3 text-base font-semibold leading-6 text-white transition hover:bg-[#25d366]"
               >
                 Contáctanos por WhatsApp
-              </a>
+              </button>
             </div>
           </div>
         </div>

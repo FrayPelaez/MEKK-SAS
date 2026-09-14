@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { MouseEvent } from "react";
 import { Link, useParams } from "react-router-dom";
 import { products } from "../data/products";
+import { contactWhatsApp } from "../services/whatsapp";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -241,7 +242,7 @@ export default function ProductDetail() {
                   Características
                 </h2>
 
-                <ul className="mt-5 space-y-3">
+                <ul className="mt-5 space-y-5">
                   {features.map((feature, index) => (
                     <li
                       key={`${feature}-${index}`}
@@ -267,42 +268,21 @@ export default function ProductDetail() {
                 </ul>
               </div>
             )}
-
-            {/* REFERENCIA Y MARCA */}
-            <div className="mt-8 grid grid-cols-1 overflow-hidden rounded-xl bg-[#f7f7f7] sm:grid-cols-2">
-              <div className="p-5 sm:border-r sm:border-[#d9d9d9]">
-                <p className="text-sm font-bold text-[#101828]">
-                  Referencia
-                </p>
-
-                <p className="mt-2 text-base text-[#64748b]">
-                  {product.reference || "No especificada"}
-                </p>
-              </div>
-
-              <div className="border-t border-[#d9d9d9] p-5 sm:border-t-0">
-                <p className="text-sm font-bold text-[#101828]">
-                  Marca
-                </p>
-
-                <p className="mt-2 text-base text-[#64748b]">
-                  {product.brand || "No especificada"}
-                </p>
-              </div>
-            </div>
-
+            
             {/* BOTONES */}
             <div className="mt-7 grid gap-3 sm:grid-cols-2">
-              <a
-                href={`https://wa.me/573142898780?text=${encodeURIComponent(
-                  `Hola, estoy interesado en cotizar el producto ${product.name}${
-                    product.reference
-                      ? `, referencia ${product.reference}`
-                      : ""
-                  }.`
-                )}`}
-                target="_blank"
-                rel="noreferrer"
+              <button
+                type="button"
+                onClick={() =>
+                  contactWhatsApp(
+                    `Hola, estoy interesado en cotizar el producto ${product.name}${
+                      product.reference?.trim() &&
+                      product.reference.trim().toUpperCase() !== "N/A"
+                        ? `, referencia ${product.reference}`
+                        : ""
+                    }.`
+                  )
+                }
                 className="hidden items-center justify-center gap-2 rounded-[18px] bg-[#ff6500] px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-[#25d366] md:flex"
               >
                 <svg
@@ -318,7 +298,7 @@ export default function ProductDetail() {
                 Cotizar por WhatsApp
 
                 <span>→</span>
-              </a>
+              </button>
 
               {technicalSheet ? (
                 <a
@@ -517,15 +497,18 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <a
-            href="https://wa.me/573142898780"
-            target="_blank"
-            rel="noreferrer"
+          <button
+            type="button"
+            onClick={() =>
+              contactWhatsApp(
+                "Hola, estoy buscando un producto que no encontré en la página. ¿Me podrían ayudar?"
+              )
+            }
             className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-xl border border-[#c94f00] px-5 py-3 text-base font-semibold text-[#c94f00] transition hover:bg-[#fff0e6]"
           >
             Contactar ahora
             <span>→</span>
-          </a>
+          </button>
         </div>
 
         {/* PRODUCTOS RELACIONADOS */}

@@ -1,5 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-
+import WhatsAppFloating from "./components/whatsapp/whatsappfloating";
+import ScrollToTop from "./components/layout/scrolltotop";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
 import Products from "./pages/products";
@@ -27,6 +28,8 @@ function App() {
       </Routes>
 
       <Footer />
+      <ScrollToTop />
+      <WhatsAppFloating />
     </BrowserRouter>
   );
 }

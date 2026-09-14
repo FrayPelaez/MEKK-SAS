@@ -1,4 +1,12 @@
+import { contactWhatsApp } from "../../services/whatsapp";
+
 export default function Hero() {
+  const handleWhatsApp = () => {
+    contactWhatsApp(
+      "Hola, estoy interesado en solicitar una cotización con MEKK S.A.S. ¿Me podrían brindar asesoría?"
+    );
+  };
+
   return (
     <section
       className="relative flex min-h-[620px] items-center justify-center bg-cover bg-center px-6 py-20 md:min-h-[700px] lg:min-h-[calc(100vh-80px)]"
@@ -28,12 +36,13 @@ export default function Hero() {
             Ver productos
           </a>
 
-          <a
-            href="/contacto"
+          <button
+            type="button"
+            onClick={handleWhatsApp}
             className="inline-flex min-h-12 items-center justify-center rounded-lg border border-[#ff6500] bg-white px-6 py-3 text-base font-semibold leading-6 text-[#ff6500] transition hover:bg-[#ff6500] hover:text-white"
           >
             Solicitar cotización
-          </a>
+          </button>
         </div>
       </div>
     </section>

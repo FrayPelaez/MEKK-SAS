@@ -1,4 +1,12 @@
+import { contactWhatsApp } from "../../services/whatsapp";
+
 export default function ContactInfo() {
+  const handleWhatsApp = () => {
+    contactWhatsApp(
+      "Hola, me gustaría hablar con un asesor comercial de MEKK S.A.S. para recibir información y orientación sobre sus productos."
+    );
+  };
+
   return (
     <section className="rounded-xl border border-[#d9d9d9] bg-white p-6">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#64748b]">
@@ -48,12 +56,13 @@ export default function ContactInfo() {
       </div>
 
       <div className="mt-8">
-        <a
-          href="#"
+        <button
+          type="button"
+          onClick={handleWhatsApp}
           className="inline-flex items-center justify-center rounded-lg bg-[#ff6500] px-5 py-3 text-base font-semibold leading-6 text-white transition hover:bg-[#25d366]"
         >
           Hablar por WhatsApp
-        </a>
+        </button>
       </div>
     </section>
   );

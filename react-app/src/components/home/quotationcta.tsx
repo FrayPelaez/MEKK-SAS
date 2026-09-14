@@ -1,4 +1,12 @@
+import { contactWhatsApp } from "../../services/whatsapp";
+
 export default function QuotationCTA() {
+  const handleWhatsApp = () => {
+    contactWhatsApp(
+      "Hola, estoy interesado en recibir una cotización personalizada. Quisiera conocer disponibilidad, precios, opciones de envío y descuentos por volumen."
+    );
+  };
+
   return (
     <section className="relative overflow-hidden border-y border-[#334155] bg-[#172033] px-6 py-20 shadow-[inset_0_-1px_0_rgba(255,255,255,0.04)] lg:py-24">
       <div className="absolute inset-0 bg-gradient-to-r from-[#172033] via-[#1e293b] to-[#243047]" />
@@ -24,10 +32,9 @@ export default function QuotationCTA() {
 
         {/* RIGHT CONTENT */}
         <div className="flex flex-col gap-8">
-          <a
-            href="https://api.whatsapp.com/send?phone=573174328129"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
+            onClick={handleWhatsApp}
             className="inline-flex min-h-[64px] w-full items-center justify-center gap-3 rounded-xl bg-[#ff6500] px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:bg-[#b44801]"
           >
             <svg
@@ -54,7 +61,7 @@ export default function QuotationCTA() {
               <path d="M5 12h14" />
               <path d="m13 6 6 6-6 6" />
             </svg>
-          </a>
+          </button>
 
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
             

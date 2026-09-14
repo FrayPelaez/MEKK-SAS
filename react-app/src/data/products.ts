@@ -8,7 +8,6 @@ export const products: Product[] = [
     id: 1,
     name: "Equipo de puesta a tierra alta tensión",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo alta tension.png",
     description:
@@ -28,7 +27,6 @@ export const products: Product[] = [
     id: 2,
     name: "Equipo de puesta a tierra baja tensión",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo baja tension.png",
     description:
@@ -48,7 +46,6 @@ export const products: Product[] = [
     id: 3,
     name: "Equipo de puesta a tierra media tensión",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/equipo media tension.png",
     description:
@@ -74,7 +71,6 @@ export const products: Product[] = [
     id: 4,
     name: "Equipo de puesta a tierra tipo caimán",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image:
       "/imgs/productos/puestas a tierra/equipo puesta a tierra tipo caiman.png",
@@ -94,7 +90,6 @@ export const products: Product[] = [
     id: 5,
     name: "Sistema de puesta a tierra baja tensión",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/sistema baja tension.png",
     description:
@@ -113,7 +108,6 @@ export const products: Product[] = [
     id: 6,
     name: "Sistema de puesta a tierra media tensión",
     category: "Puestas a tierra",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/puestas a tierra/sistema media tension.png",
     description:
@@ -139,7 +133,6 @@ export const products: Product[] = [
     id: 7,
     name: "Pértiga escopeta",
     category: "Pértigas",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertiga escopeta.png",
 
@@ -201,7 +194,6 @@ export const products: Product[] = [
     id: 8,
     name: "Pértiga Hastings",
     category: "Pértigas",
-    brand: "Hastings",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertigaHasting.png",
 
@@ -275,21 +267,39 @@ export const products: Product[] = [
     id: 9,
     name: "Balaclava",
     category: "EPP",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/epps/balaclava.png",
     description:
-      "Elemento de protección personal para trabajos eléctricos especializados.",
+      "La balaclava ignífuga para protección contra arco eléctrico está diseñada para brindar protección avanzada de la cabeza, rostro, cuello y parte superior de los hombros en trabajos eléctricos de alto riesgo. Su fabricación en fibras técnicas resistentes al fuego proporciona protección térmica, confort y durabilidad, siendo adecuada para labores en entornos de media y alta tensión.",
+    features: [
+      "Protección contra arco eléctrico de alta energía ( 12, 24, 36 cal/cm²).",
+      "Material ignífugo permanente, resistente a la llama y al calor.",
+      "Alta resistencia a la propagación de la llama.",
+      "Excelente comportamiento térmico y disipación del calor.",
+      "Diseño ergonómico para uso prolongado.",
+      "Alta transpirabilidad y confort.",
+      "Costuras reforzadas de alta resistencia.",
+      "Cobertura extendida para protección del cuello y hombros.",
+      "Compatible con casco dieléctrico, careta facial y otros EPP.",
+    ],
+    technicalSheet:"",
   },
   {
     id: 10,
     name: "Bolso para careta",
     category: "EPP",
-    brand: "N/A",
     reference: "N/A",
     image: "/imgs/productos/epps/bolso para careta.png",
     description:
-      "Bolso para almacenamiento y transporte de careta de protección.",
+      "Nuestros bolsos para careta anti arco es un accesorio diseñado para transportar y proteger de manera segura una careta de soldadura anti arco. Está confeccionado con materiales resistentes y duraderos que garantizan la protección adecuada del equipo, al mismo tiempo que facilitan su transporte y almacenamiento.",
+    features: [
+      "Fabricado en lona tipo carpa impermeable.",
+      "Bolso con molde de la careta.",
+      "Forro interno que evita rayones.",
+      "Lleva reata ajustable.",
+      "Cremallera negra ajustable.",
+    ],
+    technicalSheet:"",
   },
   {
     id: 11,

@@ -9,6 +9,20 @@ export default function AdvisorCard({
   emails,
   phones,
 }: AdvisorCardProps) {
+  const firstName = name.split(" ")[0];
+
+  const emailSubject = `Solicitud de asesoría comercial - MEKK S.A.S.`;
+
+  const emailBody = `Hola ${firstName},
+
+Encontré tu contacto en la página web de MEKK S.A.S. y me gustaría recibir asesoría comercial sobre sus productos y soluciones.
+
+Quedo atento a tu orientación.
+
+Gracias.`;
+
+  const whatsappMessage = `Hola ${firstName}, encontré tu contacto en la página web de MEKK S.A.S. y me gustaría recibir asesoría comercial sobre sus productos y soluciones. ¿Me podrías ayudar?`;
+
   return (
     <article className="flex h-full flex-col rounded-xl border border-[#d9d9d9] bg-white p-3 xl:p-6">
       <h3 className="text-base font-semibold leading-6 text-[#101828] xl:text-lg">
@@ -25,7 +39,9 @@ export default function AdvisorCard({
             {emails.map((email) => (
               <a
                 key={email}
-                href={`mailto:${email}`}
+                href={`mailto:${email}?subject=${encodeURIComponent(
+                  emailSubject
+                )}&body=${encodeURIComponent(emailBody)}`}
                 className="block break-all text-sm font-normal leading-5 text-[#4b5563] transition hover:text-[#ff6500] xl:text-base xl:leading-6"
               >
                 {email}
@@ -55,7 +71,9 @@ export default function AdvisorCard({
 
       <div className="mt-auto pt-4 xl:pt-6">
         <a
-          href={`https://wa.me/57${phones[0]}`}
+          href={`https://wa.me/57${phones[0]}?text=${encodeURIComponent(
+            whatsappMessage
+          )}`}
           target="_blank"
           rel="noreferrer"
           className="inline-flex w-full items-center justify-center rounded-lg border border-[#ff6500] px-2 py-2 text-center text-sm font-semibold leading-5 text-[#ff6500] transition hover:bg-[#ff6500] hover:text-white xl:w-auto xl:px-4"

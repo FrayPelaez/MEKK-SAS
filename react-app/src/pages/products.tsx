@@ -44,7 +44,6 @@ export default function Products() {
     const matchesSearch =
       product.name.toLowerCase().includes(query) ||
       product.category.toLowerCase().includes(query) ||
-      product.brand.toLowerCase().includes(query) ||
       product.reference.toLowerCase().includes(query);
 
     const matchesCategory =

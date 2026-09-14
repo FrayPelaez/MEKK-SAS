@@ -1,4 +1,15 @@
 export default function ContactCards() {
+  const emailSubject = "Solicitud de información - MEKK S.A.S.";
+
+  const emailBody = `Hola, equipo de MEKK S.A.S.
+
+Estoy interesado en recibir información sobre sus productos y soluciones.
+
+Agradezco su asesoría.`;
+
+  const whatsappMessage =
+    "Hola, me comunico desde la página web de MEKK S.A.S. y estoy interesado en recibir información sobre sus productos y soluciones. ¿Me podrían ayudar?";
+
   return (
     <section className="mt-8 grid grid-cols-2 gap-3 sm:gap-6 xl:grid-cols-4">
       {/* DIRECCIÓN */}
@@ -47,7 +58,9 @@ export default function ContactCards() {
         </h2>
 
         <a
-          href="mailto:compras.mekksas@gmail.com"
+          href={`mailto:compras.mekksas@gmail.com?subject=${encodeURIComponent(
+            emailSubject
+          )}&body=${encodeURIComponent(emailBody)}`}
           className="mt-2 break-all text-sm font-normal leading-5 text-[#4b5563] transition hover:text-[#ff6500] xl:mt-3 xl:text-base xl:leading-6"
         >
           compras.mekksas@gmail.com
@@ -105,7 +118,9 @@ export default function ContactCards() {
         </h2>
 
         <a
-          href="https://wa.me/573142898780"
+          href={`https://wa.me/573142898780?text=${encodeURIComponent(
+            whatsappMessage
+          )}`}
           target="_blank"
           rel="noreferrer"
           className="mt-2 text-sm font-normal leading-5 text-[#4b5563] transition hover:text-[#ff6500] xl:mt-3 xl:text-base xl:leading-6"
