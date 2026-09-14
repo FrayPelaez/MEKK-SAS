@@ -18,6 +18,8 @@ export default function Products() {
   const [sortOrder, setSortOrder] = useState<"az" | "za">("az");
   const [currentPage, setCurrentPage] = useState(1);
 
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
   // Obtiene automáticamente las categorías existentes
   const categories = [
     ...new Set(products.map((product) => product.category)),
@@ -93,6 +95,176 @@ export default function Products() {
 
   return (
     <main className="min-h-screen bg-[#f7f7f7]">
+
+      {/* MOBILE STICKY FILTER BAR */}
+      <div className="sticky top-[80px] z-40 border-b border-[#d9d9d9] bg-white lg:hidden">
+        <button
+          type="button"
+          onClick={() =>
+            setMobileFiltersOpen((current) => !current)
+          }
+          className="flex w-full items-center justify-between bg-white px-6 py-4 text-left"
+          aria-expanded={mobileFiltersOpen}
+        >
+          <div className="flex items-center gap-3">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className="h-5 w-5 text-[#ff6500]"
+              aria-hidden="true"
+            >
+              <path d="M4 6h16" />
+              <path d="M7 12h10" />
+              <path d="M10 18h4" />
+            </svg>
+
+            <span className="text-base font-semibold text-[#101828]">
+              Filtros y orden
+            </span>
+
+            {selectedCategories.length > 0 && (
+              <span className="flex h-6 min-w-6 items-center justify-center rounded-full bg-[#ff6500] px-2 text-sm font-semibold text-white">
+                {selectedCategories.length}
+              </span>
+            )}
+          </div>
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            className={`h-5 w-5 text-[#101828] transition-transform duration-200 ${
+              mobileFiltersOpen ? "rotate-180" : ""
+            }`}
+            aria-hidden="true"
+          >
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+        </button>
+
+        {/* MOBILE FILTER PANEL */}
+        <div
+          className={`overflow-hidden bg-white transition-all duration-300 ${
+            mobileFiltersOpen
+              ? "max-h-[650px] border-t border-[#d9d9d9]"
+              : "max-h-0"
+          }`}
+        >
+          <div className="max-h-[calc(100vh-150px)] overflow-y-auto bg-white px-6 py-5">
+
+            {/* MOBILE SEARCH */}
+            <div>
+              <ProductSearch
+                value={search}
+                onChange={setSearch}
+              />
+            </div>
+
+            {/* MOBILE CATEGORIES */}
+            <div className="mt-6">
+              <div className="flex items-center justify-between">
+                <h2 className="text-base font-bold text-[#101828]">
+                  Categorías
+                </h2>
+
+                {selectedCategories.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setSelectedCategories([])
+                    }
+                    className="text-sm font-semibold text-[#c94f00] transition hover:text-[#101828]"
+                  >
+                    Limpiar
+                  </button>
+                )}
+              </div>
+
+              <div className="mt-4 flex flex-wrap gap-2">
+                {categories.map((category) => {
+                  const isSelected =
+                    selectedCategories.includes(category);
+
+                  return (
+                    <button
+                      key={category}
+                      type="button"
+                      onClick={() =>
+                        handleCategoryChange(category)
+                      }
+                      className={`rounded-full border px-4 py-2.5 text-sm font-medium transition ${
+                        isSelected
+                          ? "border-[#ff6500] bg-[#fff0e6] text-[#c94f00]"
+                          : "border-[#d9d9d9] bg-white text-[#334155] hover:border-[#ff6500]"
+                      }`}
+                    >
+                      <span className="flex items-center gap-2">
+                        {isSelected && (
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.5"
+                            className="h-4 w-4"
+                            aria-hidden="true"
+                          >
+                            <path d="m5 12 4 4L19 6" />
+                          </svg>
+                        )}
+
+                        {category}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* MOBILE SORT */}
+            <div className="mt-6 border-t border-[#d9d9d9] pt-5">
+              <p className="mb-3 text-base font-bold text-[#101828]">
+                Ordenar productos
+              </p>
+
+              <ProductSort
+                value={sortOrder}
+                onChange={setSortOrder}
+              />
+            </div>
+
+            {/* MOBILE ACTIVE FILTERS */}
+            {(selectedCategories.length > 0 ||
+              search.trim() !== "") && (
+              <div className="mt-5 flex items-center justify-between gap-4 rounded-xl bg-[#f7f7f7] px-4 py-3">
+                <p className="text-sm text-[#64748b]">
+                  {selectedCategories.length > 0
+                    ? `${selectedCategories.length} ${
+                        selectedCategories.length === 1
+                          ? "categoría seleccionada"
+                          : "categorías seleccionadas"
+                      }`
+                    : "Búsqueda activa"}
+                </p>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCategories([]);
+                    setSearch("");
+                  }}
+                  className="shrink-0 text-sm font-semibold text-[#c94f00]"
+                >
+                  Limpiar todo
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="mx-auto max-w-7xl px-6 py-10">
 
         {/* PAGE HEADER */}
@@ -109,18 +281,20 @@ export default function Products() {
 
         <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
 
-          {/* FILTERS */}
-          <ProductFilters
-            categories={categories}
-            selectedCategories={selectedCategories}
-            onCategoryChange={handleCategoryChange}
-          />
+          {/* DESKTOP FILTERS */}
+          <div className="hidden lg:block">
+            <ProductFilters
+              categories={categories}
+              selectedCategories={selectedCategories}
+              onCategoryChange={handleCategoryChange}
+            />
+          </div>
 
           {/* PRODUCTS AREA */}
           <section>
 
-            {/* SEARCH + SORT */}
-            <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            {/* DESKTOP SEARCH + SORT */}
+            <div className="mb-6 hidden flex-col gap-4 md:flex-row md:items-center md:justify-between lg:flex">
               <ProductSearch
                 value={search}
                 onChange={setSearch}
