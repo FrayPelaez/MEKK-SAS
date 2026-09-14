@@ -1,7 +1,19 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/productos",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/productos/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/contacto",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/nosotros",
       "destination": "/index.html"
     }
   ]

@@ -283,7 +283,7 @@ export default function ProductDetail() {
                     }.`
                   )
                 }
-                className="hidden items-center justify-center gap-2 rounded-[18px] bg-[#ff6500] px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-[#25d366] md:flex"
+                className="flex items-center justify-center gap-2 rounded-[18px] bg-[#ff6500] px-6 py-3 text-base font-semibold text-white shadow-md transition hover:bg-[#25d366]"
               >
                 <svg
                   viewBox="0 0 24 24"
