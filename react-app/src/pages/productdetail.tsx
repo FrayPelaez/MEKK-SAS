@@ -205,7 +205,7 @@ export default function ProductDetail() {
           {/* ZOOM TIPO AMAZON */}
           {product.image && isZooming && (
             <div
-              className="pointer-events-none absolute right-0 top-0 z-30 hidden h-full min-h-[620px] w-[calc(52%-1.75rem)] overflow-hidden rounded-2xl border border-[#d9d9d9] bg-white shadow-xl lg:block"
+              className="pointer-events-none absolute right-0 top-0 z-30 hidden h-[620px] w-[calc(52%-1.75rem)] overflow-hidden rounded-2xl border border-[#d9d9d9] bg-white shadow-xl lg:block"
               style={{
                 backgroundImage: `url("${product.image}")`,
                 backgroundRepeat: "no-repeat",
