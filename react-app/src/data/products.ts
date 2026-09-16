@@ -160,7 +160,7 @@ export const products: Product[] = [
   // =========================================================
   {
     id: 7,
-    name: "Pértiga escopeta",
+    name: "Pértiga Escopeta Hasting",
     category: "Pértigas",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertiga escopeta.png",
@@ -222,7 +222,7 @@ export const products: Product[] = [
   },
   {
     id: 8,
-    name: "Pértiga Telescópica Hastings",
+    name: "Pértiga Telescópica Hasting",
     category: "Pértigas",
     reference: "N/A",
     image: "/imgs/productos/material electrico/pertigaHasting.png",
@@ -291,11 +291,78 @@ export const products: Product[] = [
       },
     ],
   },
+  {
+    id: 9,
+    name: "Pértiga Telescópica Solução",
+    category: "Pértigas",
+    reference: "N/A",
+    image: "/imgs/fichas-tecnicas/pertigas/pertigasolucao.jpeg",
+    description:
+      "La Pértiga Telescópica SOLUÇÃO HV-240 es una herramienta de maniobra diseñada para realizar trabajos en instalaciones eléctricas de media y alta tensión manteniendo una distancia segura entre el operador y los elementos energizados. Está fabricada con secciones de fibra de vidrio reforzada de grado eléctrico, ofreciendo una combinación de aislamiento, resistencia y bajo peso. Su sistema de bloqueo automático No Twist evita la rotación de las secciones durante la operación, mientras que su diseño telescópico permite ajustar la longitud de acuerdo con las necesidades del trabajo. La sección superior de color verde fluorescente facilita su identificación en campo.",
+    features: [
+      "Marca: SOLUÇÃO.",
+      "Modelo: HV-240.",
+      "Longitud extendida: 39 pies 6 pulgadas (aprox. 12,05 m).",
+      "Longitud retraída: 69 pulgadas (aprox. 1,75 m).",
+      "Fabricada en fibra de vidrio reforzada de grado eléctrico.",
+      "Diseño telescópico y ajustable.",
+      "Sistema No Twist con bloqueo automático de las secciones.",
+      "Secciones desmontables que pueden retirarse o agregarse para ajustar la longitud.",
+      "Sección superior verde fluorescente con núcleo de espuma para fácil identificación.",
+      "Superficie lisa que facilita la limpieza y el encerado.",
+      "Diseño triangular para proporcionar mayor estabilidad.",
+      'Diámetro de base aproximado: 60,5 mm (2,38").',
+      "Peso aproximado: 6,53 kg (14,4 lb).",
+      "Estructura liviana y resistente para trabajos en campo.",
+      "Diseñada para maniobras manteniendo una distancia de seguridad.",
+      "Aplicable en apertura y cierre de interruptores de desconexión.",
+      "Utilizada para reemplazo de fusibles en transformadores.",
+      "También puede emplearse en trabajos de poda de ramas.",
+      "Referencias de seguridad: OSHA y ASTM F-711.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/pertigas/FICHA TECNICA PERTIGA SOLUCAO.jpeg",
+  },
+  {
+    id: 10,
+    name: "Pértiga Escopeta Solução",
+    category: "Pértigas",
+    reference: "N/A",
+    image: "/imgs/fichas-tecnicas/pertigas/PERTIGA ESCOPETA SOLUCAO.jpeg",
+    description:
+      "La Pértiga Escopeta SOLUÇÃO modelo SE514-1304 es una herramienta de maniobra diseñada para realizar trabajos en instalaciones eléctricas de media y alta tensión de forma segura y eficiente. Cuenta con un gancho articulado y retráctil, accionado mediante el mango, que permite realizar operaciones de agarre, colocación y retiro de elementos desde una distancia segura. Su sistema de cremallera con tres posiciones de trabajo y doble cierre de seguridad proporciona un ajuste confiable durante las maniobras. Está fabricada con fibra de vidrio de alta resistencia, ofreciendo aislamiento eléctrico, durabilidad y un diseño práctico para trabajos en campo.",
+    features: [
+      "Marca: SOLUÇÃO.",
+      "Modelo: SE514-1304.",
+      "Longitud total: 2.650 mm (2,65 m).",
+      "Longitud aislante: 1.300 mm (1,30 m).",
+      "Diámetro del tubo: 32 mm.",
+      "Peso aproximado: 3,1 kg.",
+      "Tensión máxima de aplicación: 138 kV.",
+      "Capacidad nominal de trabajo a tracción: 133 daN.",
+      "Varilla aislante fabricada en fibra de vidrio de alta resistencia.",
+      "Gancho articulado y retráctil accionado mediante mango.",
+      "Cremallera con dos cierres de seguridad.",
+      "Sistema de ajuste con tres posiciones de trabajo.",
+      "Gancho fabricado en acero.",
+      "Guías, cabezal y mango fabricados en polietileno.",
+      "Base de soporte de goma para mayor estabilidad.",
+      "Diseño liviano, resistente y práctico.",
+      "Permite realizar maniobras manteniendo una distancia de seguridad.",
+      "Adecuada para instalación y remoción de pinzas de línea viva.",
+      "Aplicable en la instalación de juegos de puesta a tierra temporales.",
+      "Utilizada para colocación y remoción de cubiertas protectoras de línea viva.",
+      "Permite la manipulación de instrumentos de medición.",
+      "Diseñada para trabajos profesionales en redes eléctricas de media y alta tensión.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/pertigas/FICHA TECNICA PERTIGA ESCOPETA SOLUCAO.jpeg",
+  },
   // =========================================================
   // EPP
   // =========================================================
   {
-    id: 9,
+    id: 11,
     name: "Balaclava",
     category: "EPP",
     reference: "N/A",
@@ -317,7 +384,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA BALACLAVA 24CAL.png",
   },
   {
-    id: 10,
+    id: 12,
     name: "Bolso para careta",
     category: "EPP",
     reference: "N/A",
@@ -334,7 +401,7 @@ export const products: Product[] = [
     technicalSheet: "/imgs/fichas-tecnicas/epps/FICHA TECNICA BOLSO CARETA.png",
   },
   {
-    id: 11,
+    id: 13,
     name: "Capuchones aislados",
     category: "EPP",
     reference: "N/A",
@@ -358,7 +425,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA CAPUCHONES AISLANTES.png",
   },
   {
-    id: 12,
+    id: 14,
     name: "Careta de protección",
     category: "EPP",
     reference: "N/A",
@@ -383,7 +450,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA CARETA DE PROTECCION 20CAL.png",
   },
   {
-    id: 13,
+    id: 15,
     name: "Casco de seguridad tipo II",
     category: "EPP",
 
@@ -405,7 +472,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA CASCO DE SEGURIDAD TIPO 2.png",
   },
   {
-    id: 14,
+    id: 16,
     name: "Cuchillo pelacable aislado 1000V",
     category: "EPP",
     reference: "1000V",
@@ -430,7 +497,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA  CUCHILLO AISLADO.png",
   },
   {
-    id: 15,
+    id: 17,
     name: "Juego de dados con ratchet aislados a 1000V",
     category: "EPP",
     reference: "1000V",
@@ -461,7 +528,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA  JUEGO DE DADOS CON RATCHET AISLADOS.png",
   },
   {
-    id: 16,
+    id: 18,
     name: "Juego de destornilladores aislados a 1000V",
     category: "EPP",
     reference: "1000V",
@@ -495,7 +562,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA JUEGO DE DESTORNILLADORES AISLADOS TROMONTINA.png",
   },
   {
-    id: 17,
+    id: 19,
     name: "Llave ajustable aislada 1000V",
     category: "EPP",
     reference: "1000V",
@@ -522,7 +589,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA  LLAVE AJUSTABLE.png",
   },
   {
-    id: 18,
+    id: 20,
     name: "Llaves fijas aisladas a 1000V",
     category: "EPP",
     reference: "1000V",
@@ -549,7 +616,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA LLAVES FIJAS AISLADAS.jpeg",
   },
   {
-    id: 19,
+    id: 21,
     name: "Pinza de punta aislada 1000V",
     category: "EPP",
     reference: "1000V",
@@ -580,7 +647,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/epps/FICHA TECNICA PINZA DE PUNTA AISLADA.jpeg",
   },
   {
-    id: 20,
+    id: 22,
     name: "Segueta aislada 1000V",
     category: "EPP",
     reference: "1000V",
@@ -612,70 +679,158 @@ export const products: Product[] = [
   // ESCALERAS
   // =========================================================
   {
-    id: 21,
+    id: 23,
     name: "Apoya poste",
     category: "Escaleras",
-
     reference: "N/A",
     image: "/imgs/productos/escaleras/apoya poste.png",
     description:
-      "Accesorio apoya poste para trabajos con escaleras profesionales.",
-  },
-  {
-    id: 22,
-    name: "Escalera de extensión dieléctrica",
-    category: "Escaleras",
-
-    reference: "N/A",
-    image: "/imgs/productos/escaleras/escalera de extension dielectrica.png",
-    description: "Escalera de extensión dieléctrica para trabajos eléctricos.",
-  },
-  {
-    id: 23,
-    name: "Escalera sencilla dieléctrica",
-    category: "Escaleras",
-
-    reference: "N/A",
-    image: "/imgs/productos/escaleras/escalera sencilla dielectrica.png",
-    description:
-      "Escalera sencilla dieléctrica para trabajos en instalaciones eléctricas.",
+      "El Apoya Poste V-TopTool es un accesorio diseñado para utilizarse con escaleras, proporcionando un apoyo estable sobre postes y otras superficies durante trabajos en altura. Su diseño en forma de “V” antideslizante permite mejorar la estabilidad de la escalera y facilita el posicionamiento seguro del trabajador. Fabricado con una bandeja de Nylon® inyectado de alta resistencia y equipado con cinta de Forprene® antideslizante, incorpora ranuras y espacios para organizar herramientas, facilitando las labores de instalación y mantenimiento en altura. Es compatible con escaleras sencillas y de extensión, además de modelos especiales bajo solicitud.",
+    features: [
+      "Diseño en forma de “V” para apoyo sobre postes y superficies.",
+      "Bandeja fabricada en Nylon® inyectado de alta resistencia.",
+      "Cinta de Forprene® antideslizante para mayor agarre y estabilidad.",
+      "Sistema de ranuras y organizadores para herramientas.",
+      "Facilita la organización de herramientas durante trabajos en altura.",
+      "Diseño resistente y adecuado para condiciones de trabajo exigentes.",
+      "Fácil instalación y colocación sobre la escalera.",
+      "Compatible con escaleras sencillas y de extensión.",
+      "Puede utilizarse con escaleras especiales tipo tijera y trípode, bajo solicitud.",
+      "Dimensiones: 11,0 × 45,6 × 18,3 cm.",
+      "Peso aproximado: 970 g (±15 g).",
+      "Color: bandeja negra y cinta amarilla.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA APOYA POSTE V-TOP-TOOL.png",
   },
   {
     id: 24,
-    name: "Escalera tipo tijera dieléctrica",
+    name: "Escalera de extensión dieléctrica",
     category: "Escaleras",
-
     reference: "N/A",
-    image: "/imgs/productos/escaleras/escalera tipo tijera dielectrica.png",
+    image: "/imgs/productos/escaleras/escalera de extension dielectrica.png",
     description:
-      "Escalera tipo tijera dieléctrica para trabajos profesionales.",
+      "La Escalera de Extensión Doble FRP es una escalera portátil de dos cuerpos fabricada en PRFV/FRP (plástico reforzado con fibra de vidrio), material no conductor de electricidad, diseñada para trabajos de mantenimiento, instalación y reparación en redes eléctricas y estructuras. Cuenta con peldaños tipo D de aluminio antideslizante, superficie superior plana para mayor comodidad y zapatas antideslizantes adaptables a diferentes ángulos. Su construcción ofrece resistencia, durabilidad y aislamiento eléctrico para trabajos en ambientes con riesgo eléctrico, corrosión y exposición a la intemperie.",
+    features: [
+      "Fabricada en PRFV/FRP, plástico reforzado con fibra de vidrio.",
+      "Aislamiento dieléctrico Clase 4.",
+      "Rieles en PRFV/FRP, no conductores de electricidad.",
+      "Diseño de extensión doble de dos cuerpos.",
+      "Peldaños tipo D en aluminio antideslizante.",
+      "Superficie superior plana para mayor comodidad durante el uso.",
+      "Zapatas antideslizantes adaptables a múltiples ángulos.",
+      "Opción de incrustarse en terrenos blandos, según configuración.",
+      "Capacidad de carga de más de 300 lb (136 kg), Tipo IA.",
+      "Alta resistencia a la corrosión y a la intemperie.",
+      "Diseño liviano, resistente y duradero.",
+      "Fabricada y probada bajo la norma ANSI-ASC A14.5-2017.",
+      "Disponible en diferentes longitudes y números de peldaños según referencia.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA  ESCALERAS.png",
   },
   {
     id: 25,
-    name: "Escaleras",
+    name: "Escalera sencilla dieléctrica",
     category: "Escaleras",
-
     reference: "N/A",
-    image: "/imgs/productos/escaleras/escaleras.png",
+    image: "/imgs/productos/escaleras/escalera sencilla dielectrica.png",
     description:
-      "Escaleras para trabajos profesionales en instalaciones eléctricas.",
+      "La Escalera Sencilla Dieléctrica está fabricada en fibra de vidrio (PRFV) de alta resistencia, diseñada para brindar seguridad y confiabilidad en trabajos de instalaciones eléctricas, mantenimiento industrial y entornos profesionales. Su estructura dieléctrica proporciona aislamiento eléctrico de hasta 90 kV AC, reduciendo el riesgo asociado a trabajos realizados cerca de campos eléctricos. Cuenta con peldaños de aluminio corrugado tipo D antideslizantes y zapatas de alta adherencia que proporcionan estabilidad durante su utilización. Su diseño ligero, resistente y práctico facilita el transporte y manejo, convirtiéndola en una herramienta adecuada para trabajos eléctricos e industriales que requieren aislamiento, durabilidad y estabilidad.",
+    features: [
+      "Fabricada en fibra de vidrio (PRFV) de alta resistencia.",
+      "Aislamiento dieléctrico de hasta 90 kV AC.",
+      "Peldaños de aluminio corrugado tipo D, antideslizantes.",
+      "Zapatas antideslizantes de alta adherencia para mayor estabilidad.",
+      "Capacidad de carga Tipo IA: 136 kg (300 lb).",
+      "Diseño ligero y ergonómico para facilitar el transporte y manipulación.",
+      "Alta resistencia a la corrosión y condiciones ambientales exigentes.",
+      "No conduce la electricidad, adecuada para trabajos en entornos eléctricos.",
+      "Diseño tipo escalera sencilla de apoyo.",
+      "Uso eléctrico e industrial.",
+      "Ideal para trabajos en redes eléctricas, mantenimiento e instalaciones eléctricas.",
+      "Fabricada bajo referencia de la norma ANSI A14.5.",
+      "Las dimensiones y número de peldaños dependen de la referencia o modelo.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA ESCALERA SENCILLA DIELECTRICA.jpeg",
   },
   {
     id: 26,
+    name: "Escalera tipo tijera dieléctrica",
+    category: "Escaleras",
+    reference: "N/A",
+    image: "/imgs/productos/escaleras/escalera tipo tijera dielectrica.png",
+    description:
+      "La Escalera Tipo Tijera Dieléctrica está fabricada en fibra de vidrio (PRFV) y diseñada para brindar seguridad, estabilidad y aislamiento eléctrico en trabajos de mantenimiento, instalaciones eléctricas y entornos industriales. Su diseño autosustentable permite utilizarla sin necesidad de apoyarla contra una superficie, proporcionando mayor practicidad durante las labores. Cuenta con peldaños de aluminio antideslizante, zapatas que mejoran la estabilidad y una estructura resistente a la corrosión y a condiciones ambientales exigentes. Es una solución confiable para trabajos profesionales que requieren aislamiento eléctrico, resistencia mecánica y facilidad de manejo.",
+    features: [
+      "Fabricada en fibra de vidrio (PRFV) de alta resistencia.",
+      "Peldaños de aluminio antideslizantes para mayor seguridad.",
+      "Aislamiento eléctrico de 90 kV AC.",
+      "Diseño autosustentable, no requiere apoyo contra una superficie.",
+      "Zapatas antideslizantes que proporcionan mayor estabilidad.",
+      "Alta resistencia a la corrosión y condiciones ambientales exigentes.",
+      "Diseño robusto y ligero para facilitar el transporte y manejo.",
+      "Capacidad de carga de hasta 136 kg (300 lb), Tipo IA.",
+      "Distancia entre peldaños de 30 cm.",
+      "Indicada para trabajos eléctricos, industriales y de mantenimiento.",
+      "Fabricada bajo la norma ANSI A14.5 para escaleras portátiles de seguridad.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA ESCALERA TIPO TIJERA DIELECTRICA.jpeg",
+  },
+  {
+    id: 27,
+    name: "Escaleras",
+    category: "Escaleras",
+    reference: "N/A",
+    image: "/imgs/productos/escaleras/escaleras.png",
+    description:
+      "Encuentra escaleras dieléctricas profesionales diseñadas para trabajos en instalaciones eléctricas, mantenimiento industrial y labores en altura. Nuestra línea incluye diferentes configuraciones, como escaleras sencillas, de extensión y tipo tijera, fabricadas con materiales de alta resistencia y propiedades aislantes. Ofrecen seguridad, estabilidad y durabilidad para trabajos profesionales, con diseños prácticos que facilitan el transporte, posicionamiento y uso en diferentes entornos de trabajo.",
+    features: [
+      "Diseño dieléctrico para trabajos en instalaciones eléctricas.",
+      "Fabricadas con fibra de vidrio (PRFV) de alta resistencia.",
+      "No conducen electricidad, proporcionando mayor seguridad al trabajar cerca de instalaciones energizadas.",
+      "Disponibles en diferentes configuraciones: escalera sencilla, extensión doble y tipo tijera.",
+      "Peldaños antideslizantes para mayor seguridad y estabilidad.",
+      "Zapatas de alta adherencia que ayudan a evitar deslizamientos.",
+      "Estructura resistente, ligera y durable para uso profesional.",
+      "Alta resistencia a la corrosión y condiciones ambientales exigentes.",
+      "Diseñadas para facilitar el transporte, instalación y manipulación.",
+      "Ideales para mantenimiento eléctrico, redes de distribución, instalaciones industriales y trabajos en altura.",
+      "Disponibles en diferentes tamaños y referencias, según la necesidad del trabajo.",
+      "Fabricadas bajo estándares de seguridad aplicables a escaleras portátiles.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA ESCALERA TIPO TIJERA DIELECTRICA.jpeg",
+  },
+  {
+    id: 28,
     name: "Niveladores para escaleras",
     category: "Escaleras",
-
     reference: "N/A",
     image: "/imgs/productos/escaleras/niveladores para escaleras.jpg",
     description:
-      "Niveladores para mejorar la estabilidad de escaleras durante el trabajo.",
+      "Los niveladores para escaleras son accesorios diseñados para estabilizar y nivelar escaleras de extensión cuando se utilizan sobre terrenos o superficies irregulares. Fabricados en aluminio de alta resistencia, permiten realizar ajustes para mejorar la estabilidad y seguridad durante el trabajo. Su diseño es compatible con escaleras de extensión de diferentes marcas y facilita una instalación rápida y sencilla. Son adecuados para uso en interiores y exteriores, proporcionando una solución práctica para trabajos eléctricos, industriales, de mantenimiento y construcción.",
+    features: [
+      "Fabricados en aluminio de alta resistencia.",
+      "Diseñados para nivelar escaleras en terrenos irregulares.",
+      "Compatibles con escaleras de extensión de diferentes marcas.",
+      "Instalación sencilla y rápida.",
+      "Aptos para uso en interiores y exteriores.",
+      "Mejoran la estabilidad y seguridad de la escalera durante el trabajo.",
+      "Permiten trabajar con mayor seguridad sobre superficies desniveladas.",
+      "Diseño resistente y ligero para facilitar la manipulación.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/escaleras/FICHA TECNICA NIVELADORES PARA ESCALERAS.jpeg",
   },
 
   // =========================================================
   // CUBRIMIENTOS LÍNEA VIVA
   // =========================================================
   {
-    id: 27,
+    id: 29,
     name: "Cobertor aislador de pin clase 2",
     category: "Cubrimientos línea viva",
     reference: "Clase 2",
@@ -699,7 +854,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA COBERTOR DE AISLADOR DE PIN CLASE 2.png",
   },
   {
-    id: 28,
+    id: 30,
     name: "Cobertor aislador de suspensión",
     category: "Cubrimientos línea viva",
 
@@ -726,7 +881,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA COBERTOR  AISLADOR DE SUSPENCION CONVENCIONAL.png",
   },
   {
-    id: 29,
+    id: 31,
     name: "Cobertor corta circuito",
     category: "Cubrimientos línea viva",
     reference: "N/A",
@@ -754,7 +909,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA COBERTOR CORTA CIRCUITO CLASE 2.png",
   },
   {
-    id: 30,
+    id: 32,
     name: "Cobertor para cruceta clase 2",
     category: "Cubrimientos línea viva",
     reference: "Clase 2",
@@ -785,7 +940,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA COBERTOR PARA CRUCETA CLASE 2.png",
   },
   {
-    id: 31,
+    id: 33,
     name: "Cobertor para cruceta clase 4",
     category: "Cubrimientos línea viva",
     reference: "Clase 4",
@@ -816,7 +971,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA COBERTOR PARA CRUCETA CLASE 4.png",
   },
   {
-    id: 32,
+    id: 34,
     name: "Cono de señalización",
     category: "Cubrimientos línea viva",
     reference: "N/A",
@@ -840,7 +995,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/cono de señalizacion.jpeg",
   },
   {
-    id: 33,
+    id: 35,
     name: "Cubridor de estribos clase 4",
     category: "Cubrimientos línea viva",
     reference: "Clase 4",
@@ -866,7 +1021,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA CUBRIDOR DE ESTRIBOS CLASE 4.png",
   },
   {
-    id: 34,
+    id: 36,
     name: "Cubridor de punta poste clase 3",
     category: "Cubrimientos línea viva",
     reference: "Clase 3",
@@ -893,7 +1048,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA CUBRIDOR DE PUNTA POSTE CLASE 3.png",
   },
   {
-    id: 35,
+    id: 37,
     name: "Jumper",
     category: "Cubrimientos línea viva",
     reference: "N/A",
@@ -920,7 +1075,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/JUMPER AISLADO.jpeg",
   },
   {
-    id: 36,
+    id: 38,
     name: "Manta dieléctrica abierta clase 2",
     category: "Cubrimientos línea viva",
     reference: "Clase 2",
@@ -944,7 +1099,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA MANTA ABIERTA DIELECTRICA CLASE 2 NOVAX.png",
   },
   {
-    id: 37,
+    id: 39,
     name: "Manta dieléctrica cerrada clase 2",
     category: "Cubrimientos línea viva",
     reference: "Clase 2",
@@ -967,7 +1122,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA MANTA CERRADA DIELECTRICA CLASE 2 NOVAX.png",
   },
   {
-    id: 38,
+    id: 40,
     name: "Pinza dieléctrica",
     category: "Cubrimientos línea viva",
     reference: "N/A",
@@ -990,7 +1145,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA PINZA PARA MANTAS DIELECTRICAS.jpeg",
   },
   {
-    id: 39,
+    id: 41,
     name: "Protector de cadena rígido clase 4",
     category: "Cubrimientos línea viva",
     reference: "Clase 4",
@@ -1019,7 +1174,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA PROTECTOR DE CADENA RIGIDO CLASE 4.png",
   },
   {
-    id: 40,
+    id: 42,
     name: "Protector de poste clase 4",
     category: "Cubrimientos línea viva",
     reference: "Clase 4",
@@ -1049,7 +1204,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/cubrimientos linea viva/FICHA TECNICA PROTECTOR DE POSTE CLASE 4.png",
   },
   {
-    id: 41,
+    id: 43,
     name: "Tapete dieléctrico",
     category: "Cubrimientos línea viva",
     reference: "N/A",
@@ -1079,7 +1234,7 @@ export const products: Product[] = [
   // MATERIAL ELÉCTRICO
   // =========================================================
   {
-    id: 42,
+    id: 44,
     name: "Barra dieléctrica",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1106,7 +1261,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA BARRA DIELECTRIA DIELECTRICO.png",
   },
   {
-    id: 44,
+    id: 45,
     name: "Cizalla aislada",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1131,7 +1286,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA CIZALLA AISLADA.png",
   },
   {
-    id: 45,
+    id: 46,
     name: "Cizalla pico de loro aislada",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1158,7 +1313,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA CIZALLA PICO DE LORO AISLADA.png",
   },
   {
-    id: 46,
+    id: 47,
     name: "Cortador de cable aislado",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1188,7 +1343,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA CORTADOR DE CABLE AISALDO A 1000V.png",
   },
   {
-    id: 47,
+    id: 48,
     name: "Cubridor de cañuela",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1214,7 +1369,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA CUBRIDOR DE CAÑUELA.png",
   },
   {
-    id: 48,
+    id: 49,
     name: "Desviador de vuelo",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1241,7 +1396,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA DESVIADORES DE VUELO.png",
   },
   {
-    id: 49,
+    id: 50,
     name: "Diferencial aislada",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1269,7 +1424,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA GARRUCHA AISLADA.jpeg",
   },
   {
-    id: 50,
+    id: 51,
     name: "Gancho colgador dieléctrico",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1296,7 +1451,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA GANCHO DIELECTRICO.png",
   },
   {
-    id: 51,
+    id: 52,
     name: "Gancho espiral dieléctrico",
     category: "Material eléctrico",
     reference: "N/A",
@@ -1322,7 +1477,7 @@ export const products: Product[] = [
       "/imgs/fichas-tecnicas/material electrico/FICHA TECNICA GANCHO ESPIRAL.png",
   },
   {
-    id: 52,
+    id: 53,
     name: "Pisón 2.20 m",
     category: "Material eléctrico",
     reference: "2.20 m",
@@ -1355,234 +1510,613 @@ export const products: Product[] = [
   // HERRAMIENTA ESPECIALIZADA
   // =========================================================
   {
-    id: 53,
+    id: 54,
     name: "Ampact",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/ampact.png",
     description:
-      "Herramienta especializada para aplicaciones en sistemas eléctricos.",
-  },
-  {
-    id: 54,
-    name: "Antenalla 1656-20",
-    category: "Herramienta especializada",
-
-    reference: "1656-20",
-    image: "/imgs/productos/herramienta especializada/antenalla 1656-20.png",
-    description: "Antenalla para sujeción y trabajos especializados.",
+      "La Herramienta AMPACT es una herramienta profesional diseñada para realizar la conexión rápida y segura de conductores en redes eléctricas mediante conectores AMPACT. Su sistema de conexión por impacto controlado permite obtener uniones firmes, eficientes y duraderas sin necesidad de soldadura. Está diseñada para trabajar con conductores de cobre y aluminio en redes eléctricas de media y baja tensión. Su mecanismo de actuador hidráulico por resorte proporciona una fuerza de aplicación controlada, mientras que su diseño compacto y ergonómico facilita la instalación y manipulación en campo.",
+    features: [
+      "Aplicadora profesional para conectores AMPACT.",
+      "Sistema de conexión mediante impacto controlado.",
+      "No requiere soldadura para realizar la conexión.",
+      "Compatible con conductores de cobre y aluminio.",
+      "Rango de conductores de 6 mm² a 300 mm².",
+      "Actuador hidráulico por resorte que genera un impacto controlado.",
+      "Elimina la necesidad de utilizar compresores externos.",
+      "Sistema de compresión mediante resortes de alta potencia.",
+      "Anillos codificados para configurar diferentes calibres de conductor.",
+      "Cabezal de compresión adecuado para conductores de 6 a 300 mm².",
+      "Fabricada en acero de alta resistencia.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA HERRAMIENTA AMPACT.jpeg",
   },
   {
     id: 55,
-    name: "Antenalla 1656-30",
+    name: "Antenalla 1656-20",
     category: "Herramienta especializada",
-
-    reference: "1656-30",
-    image: "/imgs/productos/herramienta especializada/antenalla 1656-30.png",
-    description: "Antenalla para sujeción y trabajos especializados.",
+    reference: "1656-20",
+    image: "/imgs/productos/herramienta especializada/antenalla 1656-20.png",
+    description:
+      "La Antenalla Tipo Chicago 1656-20 es una herramienta profesional diseñada para el agarre, tendido y tensado temporal de conductores eléctricos durante trabajos de instalación y mantenimiento de redes. Su sistema de mordaza proporciona una sujeción firme y segura, reduciendo el riesgo de deslizamiento y evitando daños al conductor. Es adecuada para cables desnudos ACSR, AAC, cobre y aluminio trenzado, ofreciendo una solución resistente para trabajos eléctricos, de telecomunicaciones e industriales.",
+    features: [
+      "Tipo: Tensor tipo Chicago.",
+      "Aplicación: Cables desnudos ACSR, aluminio y cobre trenzado.",
+      "Tipo de cable: Cobre, ACSR y AAC.",
+      'Diámetro de cable: 5,08 a 10,16 mm (0,2" a 0,4").',
+      "Tipo de mordaza: Redonda.",
+      'Longitud de mordaza: 10,2 cm (4").',
+      "Peso aproximado: 1,4 kg (3,1 lb).",
+      "Fabricada en acero forjado de alta resistencia.",
+      "Sistema de agarre de alta presión sin deslizamiento.",
+      "Diseño robusto para trabajo pesado.",
+      "Mordaza diseñada para reducir el riesgo de daño al conductor.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO CHICAGO.png",
   },
   {
     id: 56,
-    name: "Antenalla 1656-40",
+    name: "Antenalla 1656-30",
     category: "Herramienta especializada",
-
-    reference: "1656-40",
-    image: "/imgs/productos/herramienta especializada/antenalla 1656-40.png",
-    description: "Antenalla para sujeción y trabajos especializados.",
+    reference: "1656-30",
+    image: "/imgs/productos/herramienta especializada/antenalla 1656-30.png",
+    description:
+      "La Antenalla Tipo Chicago 1656-30 está diseñada para realizar operaciones de tendido y tensado de conductores eléctricos, proporcionando una sujeción segura y estable durante el proceso de instalación. Su construcción en acero forjado de alta resistencia permite soportar trabajos exigentes y operaciones de izaje y tensión. Es compatible con cables desnudos ACSR, cables de aluminio y cables de cobre trenzado, ofreciendo un agarre firme y confiable sin deslizamiento.",
+    features: [
+      "Tipo: Tensor tipo Chicago.",
+      "Aplicación: Cables desnudos ACSR, aluminio y cobre trenzado.",
+      "Tipo de cable: Cobre, ACSR y AAC.",
+      'Diámetro de cable: 7,87 a 13,46 mm (0,31" a 0,53").',
+      "Tipo de mordaza: Redonda.",
+      'Longitud de mordaza: 12 cm (4,75").',
+      "Carga segura: 4.500 lb.",
+      "Peso aproximado: 1,7 kg (3,75 lb).",
+      "Fabricada en acero forjado de alta resistencia.",
+      "Alta capacidad de sujeción sin deslizamiento.",
+      "Diseño robusto para tendido, izaje y tensado de cables.",
+      "Mordaza diseñada para minimizar el daño al conductor.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO CHICAGO.png",
   },
   {
     id: 57,
-    name: "Antenalla Haven 1 Ton",
+    name: "Antenalla 1656-40",
     category: "Herramienta especializada",
-
-    reference: "1 Ton",
-    image:
-      "/imgs/productos/herramienta especializada/antenalla Haven 1ton - copia (2).jpg",
-    description: "Antenalla Haven con capacidad de una tonelada.",
+    reference: "1656-40",
+    image: "/imgs/productos/herramienta especializada/antenalla 1656-40.png",
+    description:
+      "La Antenalla Tipo Chicago 1656-40 es una herramienta de alta resistencia destinada al tendido y tensado de conductores eléctricos en trabajos profesionales. Su sistema de agarre permite sujetar firmemente el conductor durante las operaciones de instalación, tensión e izaje. Está diseñada para trabajar principalmente con conductores ACSR desnudos, cables de aluminio y cobre, proporcionando una solución robusta para aplicaciones eléctricas e industriales de alta exigencia.",
+    features: [
+      "Tipo: Tensor tipo Chicago.",
+      "Aplicación: ACSR desnudo, cables de aluminio y cobre.",
+      "Carga segura: 3,6 toneladas.",
+      "Diámetro máximo del cable: 18,80 mm.",
+      "Diámetro mínimo indicado: 13,48 mm.",
+      "Mordaza de tipo redonda.",
+      "Construcción en acero forjado de alta resistencia.",
+      "Sistema de agarre de alta presión sin deslizamiento.",
+      "Diseño robusto para trabajo pesado.",
+      "Adecuada para operaciones de izaje y tensión.",
+      "Su diseño de sujeción ayuda a minimizar el daño de los conductores.",
+      "Larga vida útil y resistencia para aplicaciones profesionales.",
+      "Mordazas diseñadas para proporcionar un agarre firme sobre el conductor.",
+      "Adecuada para trabajos de tendido y tensado de cables.",
+      "Uso profesional en redes eléctricas, telecomunicaciones, construcción y mantenimiento.",
+      "Disponible en diferentes capacidades y rangos de diámetro según la referencia.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO CHICAGO.png",
   },
   {
     id: 58,
-    name: "Antenalla Haven 2 Ton",
+    name: "Antenalla Haven 1 Ton",
     category: "Herramienta especializada",
-
-    reference: "2 Ton",
+    reference: "1 Ton",
     image:
-      "/imgs/productos/herramienta especializada/antenalla Haven 2ton - copia.jpg",
-    description: "Antenalla Haven con capacidad de dos toneladas.",
+      "/imgs/productos/herramienta especializada/antenalla Haven 1ton - copia (2).jpg",
+    description:
+      "La Antenalla Tipo Sapo de 1 tonelada es una herramienta de sujeción y tracción diseñada para el tendido, tensado e izaje de conductores en trabajos eléctricos e industriales. Su mordaza dentada proporciona un agarre firme sobre el cable, evitando deslizamientos durante las maniobras. Está fabricada en acero galvanizado y es adecuada para trabajos con cables de diferentes materiales, ofreciendo una solución compacta y resistente para operaciones de instalación y mantenimiento.",
+    features: [
+      "Capacidad de carga: 1.000 kg (1 tonelada).",
+      "Carga nominal: 10 kN.",
+      "Diámetro de cable recomendado: 2,5 – 17 mm.",
+      "Material: Acero galvanizado.",
+      "Tipo de mordaza: Dentada tipo sapo.",
+      "Sistema de sujeción: Mecánico tipo trinquete.",
+      "Peso aproximado: 0,45 kg.",
+      "Mordaza de alta precisión para evitar deslizamientos.",
+      "Diseño compacto y fácil de manipular.",
+      "Alta resistencia al desgaste y la corrosión.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO SAPO 1-2-3 TONELADAS.png",
   },
   {
     id: 59,
-    name: "Antenalla Haven 3 Ton",
+    name: "Antenalla Haven 2 Ton",
     category: "Herramienta especializada",
-
-    reference: "3 Ton",
-    image: "/imgs/productos/herramienta especializada/antenalla Haven 3ton.jpg",
-    description: "Antenalla Haven con capacidad de tres toneladas.",
+    reference: "2 Ton",
+    image:
+      "/imgs/productos/herramienta especializada/antenalla Haven 2ton - copia.jpg",
+    description:
+      "La Antenalla Tipo Sapo de 2 toneladas está diseñada para realizar operaciones de tendido, tensado, tracción e izaje de conductores que requieren una mayor capacidad de carga. Su sistema mecánico tipo trinquete permite un avance controlado y una sujeción firme del cable. Su construcción en acero galvanizado proporciona resistencia mecánica y durabilidad, siendo apropiada para trabajos profesionales en redes eléctricas, construcción y mantenimiento.",
+    features: [
+      "Capacidad de carga: 2.000 kg (2 toneladas).",
+      "Carga nominal: 20 kN.",
+      "Diámetro de cable recomendado: 4 – 37 mm.",
+      "Material: Acero galvanizado.",
+      "Tipo de mordaza: Dentada tipo sapo.",
+      "Sistema de sujeción: Mecánico tipo trinquete.",
+      "Peso aproximado: 1,43 kg.",
+      "Sistema de trinquete para avance controlado del cable.",
+      "Seguro antidesenganche para mayor seguridad operativa.",
+      "Distribución uniforme de la carga sobre el conductor.",
+      "Construcción resistente para trabajos exigentes.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO SAPO 1-2-3 TONELADAS.png",
   },
   {
     id: 60,
-    name: "Antenallas",
+    name: "Antenalla Haven 3 Ton",
     category: "Herramienta especializada",
-
-    reference: "N/A",
-    image: "/imgs/productos/herramienta especializada/antenallas.png",
+    reference: "3 Ton",
+    image: "/imgs/productos/herramienta especializada/antenalla Haven 3ton.jpg",
     description:
-      "Herramienta de sujeción para trabajos eléctricos especializados.",
+      "La Antenalla Tipo Sapo de 3 toneladas es una herramienta de alta resistencia destinada a operaciones de tendido, tensado, tracción e izaje de conductores en aplicaciones eléctricas e industriales. Su mordaza dentada reforzada permite sujetar firmemente el cable durante maniobras de alta exigencia. Está fabricada en acero de alta resistencia y cuenta con un sistema de trinquete reforzado que proporciona un agarre estable y controlado, ofreciendo mayor capacidad para trabajos profesionales de instalación y mantenimiento.",
+    features: [
+      "Capacidad de carga: 3.000 kg (3 toneladas).",
+      "Carga nominal: 30 kN.",
+      "Diámetro de cable recomendado: 16 – 32 mm.",
+      "Material: Acero de alta resistencia.",
+      "Tipo de mordaza: Dentada reforzada.",
+      "Sistema de sujeción: Trinquete reforzado.",
+      "Peso aproximado: 1,3 – 1,5 kg.",
+      "Alta capacidad de sujeción durante operaciones de tracción.",
+      "Sistema reforzado para trabajos de mayor exigencia.",
+      "Seguro de bloqueo para evitar desenganche accidental.",
+      "Alta resistencia mecánica, al desgaste y a la corrosión.",
+      "Diseño compacto para facilitar su instalación y manipulación.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ANTENALLAS TIPO SAPO 1-2-3 TONELADAS.png",
   },
   {
     id: 61,
     name: "Detector de tensión por contacto",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image:
       "/imgs/productos/herramienta especializada/detector de tension por contacto.jpg",
     description:
-      "Detector de tensión por contacto para comprobaciones eléctricas.",
+      "El Detector de Tensión por Contacto SEW de 3,6 a 132 kV es un equipo portátil diseñado para verificar la presencia o ausencia de tensión eléctrica en sistemas de media y alta tensión mediante contacto directo con el conductor. Cuenta con indicación visual mediante LED y señal sonora, permitiendo identificar de forma rápida las condiciones energizadas. Su funcionamiento automático y diseño compacto lo hacen adecuado para trabajos de inspección, mantenimiento y verificación en redes eléctricas y subestaciones.",
+    features: [
+      "Rango de tensión: 3,6 kV a 132 kV.",
+      "Frecuencia de operación: 50 / 60 Hz.",
+      "Indicación: Visual mediante LED y sonora mediante buzzer.",
+      "Alimentación: Batería de 9 V.",
+      "Sistema de operación: Automático.",
+      "Montaje: Compatible con pértigas aislantes.",
+      "Norma aplicable: IEC 61243-1.",
+      "Encendido automático al detectar tensión.",
+      "Señal visual y sonora para facilitar la identificación.",
+      "Diseño robusto para condiciones de trabajo exigentes.",
+      "Equipo compacto, liviano y fácil de transportar.",
+      "Adecuado para uso en interiores y exteriores.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA DETECTOR DE TENSION POR CONTACTO BAJA TENSION.png",
   },
   {
     id: 62,
     name: "Detector HP277",
     category: "Herramienta especializada",
-
     reference: "HP277",
     image: "/imgs/productos/herramienta especializada/detector hp277.jpg",
     description:
-      "Detector HP277 para aplicaciones y trabajos eléctricos especializados.",
+      "El Detector por Proximidad SEW 277 HP es un dispositivo diseñado para la detección sin contacto de objetos metálicos y señales eléctricas en aplicaciones industriales. Su tecnología de detección inductiva permite identificar la presencia de elementos metálicos de manera rápida y confiable. Cuenta con indicadores luminosos y sonoros, bajo consumo de energía y una construcción robusta que facilita su utilización en ambientes industriales exigentes. Es adecuado para aplicaciones de detección, automatización y verificación de señales de alta tensión.",
+    features: [
+      "Modelo: SEW 277 HP.",
+      "Tipo: Detector por proximidad inductivo.",
+      "Principio de funcionamiento: Inductivo.",
+      "Detección sin contacto de objetos metálicos.",
+      "Distancia de detección: aproximadamente 40 mm con material estándar.",
+      "Rangos de detección de tensión: 50 V~ a 1,5 kV AC y 1,5 kV~ a 132 kV AC.",
+      "Alimentación: 10 – 30 V DC.",
+      "Corriente máxima de salida: 200 mA.",
+      "Salida: PNP / NA (normalmente abierto).",
+      "Frecuencia de conmutación: aproximadamente 100 Hz.",
+      "Indicación mediante LED de alimentación y salida.",
+      "Señal sonora y luminosa para facilitar la identificación.",
+      "Protección IP67, adecuada para ambientes industriales exigentes.",
+      "Protección contra inversión de polaridad y cortocircuito.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA DETECTOR SEW 277.png",
   },
   {
     id: 63,
     name: "Detector SEW",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/detector sew.png",
     description:
-      "Detector SEW para comprobación y trabajos en sistemas eléctricos.",
+      "El Detector de Tensión por Contacto SEW 220HVD es un equipo capacitivo diseñado para detectar la presencia o ausencia de tensión eléctrica en sistemas de media y alta tensión, mediante contacto directo con el conductor. Cuenta con detección automática y señales luminosas mediante LED y acústicas mediante buzzer, permitiendo identificar rápidamente la presencia de energía. Su diseño compacto, ligero y robusto facilita su utilización en trabajos profesionales de inspección, mantenimiento y seguridad en redes eléctricas y subestaciones.",
+    features: [
+      "Modelo: SEW 220HVD.",
+      "Rango de operación: 3,6 kV – 132 kV AC.",
+      "Frecuencia: 50 / 60 Hz.",
+      "Tipo de detección: Capacitiva.",
+      "Indicación: LED de alta intensidad + señal sonora (buzzer).",
+      "Umbral de detección: desde 2,5 kV.",
+      "Tiempo de respuesta: < 1 segundo.",
+      "Alimentación: Batería de 9 V.",
+      "Protección: IP65 contra polvo y agua.",
+      "Dimensiones: aprox. 300 × 100 × 100 mm.",
+      "Peso: aprox. 550 g.",
+      "Encendido y apagado automático.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA DETECTOR 220HVD SEW.png",
   },
   {
     id: 64,
     name: "Detector tipo lápiz",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/detectortipolapiz.png",
-    description: "Detector compacto tipo lápiz para trabajos eléctricos.",
+    description:
+      "El UNI-T Detector de Voltaje UT12D-ROW tipo lápiz es un detector portátil diseñado para verificar de forma rápida, segura y sin contacto la presencia de voltaje AC en conductores, tomas de corriente, cables, interruptores y otros sistemas eléctricos. Su diseño compacto facilita el transporte y uso en trabajos de mantenimiento eléctrico, instalaciones residenciales e industriales. Cuenta con alarma sonora, indicador LED de alta visibilidad y linterna LED integrada, además de apagado automático para optimizar el consumo de batería.",
+    features: [
+      "Modelo: UT12D-ROW.",
+      "Detección: Voltaje AC sin contacto.",
+      "Rango de voltaje: 90 V – 1000 V AC.",
+      "Frecuencia: 50 / 60 Hz.",
+      "Indicador visual: LED rojo intermitente.",
+      "Indicador sonoro: Bip de alarma.",
+      "Linterna: LED blanca integrada.",
+      "Categoría de seguridad: CAT IV 1000 V.",
+      "Grado de protección: IP67, resistente al polvo y al agua.",
+      "Alimentación: 2 baterías AAA de 1,5 V.",
+      "Apagado automático: aproximadamente 5 minutos.",
+      "Temperatura de operación: 0 °C a 40 °C.",
+      "Dimensiones: 150 × 20 × 18 mm.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA DETECTOR DE VOLTAJE TIPO LAPIZ.png",
   },
   {
     id: 65,
     name: "Freno Yoke",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/freno yoke.png",
-    description: "Freno Yoke para trabajos y aplicaciones especializadas.",
+    description:
+      "El Freno para Cuerda YOKE PAS011 es un dispositivo de seguridad diseñado para trabajos en altura, permitiendo el desplazamiento controlado del usuario sobre una cuerda durante el ascenso y descenso. Su sistema de bloqueo automático actúa sobre la cuerda y puede detener el movimiento en caso de una caída. Fabricado en acero inoxidable, ofrece resistencia y durabilidad para aplicaciones profesionales en construcción, mantenimiento, telecomunicaciones y trabajos verticales.",
+    features: [
+      "Modelo: PAS011.",
+      "Marca: YOKE.",
+      "Cuerda compatible: 11 – 16 mm de diámetro.",
+      "Material: Acero inoxidable.",
+      "Carga máxima: 16 kN (3.600 lb).",
+      "Peso neto: 200 g.",
+      "Sistema de bloqueo: Automático.",
+      "Anillo de conexión: Giratorio.",
+      "Permite el ascenso y descenso controlado sobre la cuerda.",
+      "Actúa como freno automático ante una caída.",
+      "Sistema de bloqueo diseñado para proporcionar mayor seguridad.",
+      "Anillo giratorio que facilita el movimiento y reduce torsiones.",
+      "Construcción resistente y duradera.",
+      "Diseño compacto y ligero para facilitar la manipulación.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA FRENO YOKE PAS011.jpeg",
   },
   {
     id: 66,
     name: "Garrucha",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/garrucha.png",
-    description: "Garrucha para levantamiento y trabajos especializados.",
+    description:
+      "El Diferencial de Palanca TRUPER de 3/4 toneladas es una herramienta diseñada para el levantamiento, arrastre y sujeción de cargas en trabajos industriales, de mantenimiento y montaje. Su sistema de frenado con doble trinquete proporciona un control seguro durante la operación, mientras que la palanca con rotación de 360° facilita el levantamiento y reduce el esfuerzo del operador. Cuenta con una cadena resistente a la oxidación, ganchos de acero al cromo con giro de 360° y pestillos de seguridad, además de un mango recubierto que proporciona un agarre cómodo durante el trabajo.",
+    features: [
+      "Marca: TRUPER.",
+      "Capacidad de carga: 3/4 toneladas.",
+      "Levantamiento estándar: 1,50 m.",
+      "Sistema de frenado con doble trinquete para mayor seguridad.",
+      "Palanca con rotación de 360° para facilitar el manejo.",
+      "Cadena resistente a la oxidación.",
+      "Ganchos de acero al cromo con giro de 360°.",
+      "Pestillos de seguridad para evitar el desprendimiento de la carga.",
+      "Mango recubierto para mayor comodidad y agarre.",
+      "Espesor del eslabón: 6 mm.",
+      "Apertura del gancho: 26 mm.",
+      "Dimensiones: 14 × 29 × 15 cm (base × alto × fondo).",
+      "Peso neto: 6 kg.",
+      "Empaque individual: Caja.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA DIFERENCIAL DE PALANCA TON.png",
   },
   {
     id: 67,
     name: "ID",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/id.png",
-    description: "Herramienta especializada para aplicaciones eléctricas.",
+    description:
+      "El Descendedor Autofrenante I’D L de PETZL para cuerda de 12,5 a 13 mm es un equipo diseñado para realizar descensos controlados, posicionamiento y trabajos verticales de forma segura. Su sistema autofrenante permite controlar progresivamente la velocidad de descenso y detener el movimiento cuando se libera la empuñadura. Cuenta con empuñadura ergonómica multifunción, función antipánico y sistema AUTO-LOCK, que facilita el posicionamiento y mejora el control durante las operaciones en altura. Su construcción en aluminio, acero y poliamida proporciona resistencia y durabilidad para trabajos profesionales, rescate y acceso por cuerda.",
+    features: [
+      "Marca: PETZL.",
+      "Modelo: I’D L.",
+      "Sistema autofrenante para controlar y detener el descenso.",
+      "Función antipánico que detiene automáticamente el equipo ante una acción excesiva sobre la empuñadura.",
+      "Empuñadura ergonómica multifunción para un manejo cómodo y preciso.",
+      "Sistema AUTO-LOCK para facilitar el posicionamiento sin mantener accionada la empuñadura.",
+      "Leva indicadora de error que ayuda a detectar una instalación incorrecta de la cuerda.",
+      "Permite realizar descensos controlados y ascensos cortos por cuerda.",
+      "Compatible con cuerdas de 12,5 a 13 mm de diámetro.",
+      "Fabricado en aluminio, acero y poliamida.",
+      "Peso aproximado: 600 g.",
+      "Carga máxima para una persona: 150 kg.",
+      "Capacidad para operaciones de rescate: hasta 280 kg.",
+      "Refuerzo de acero inoxidable en la zona de rozamiento para mayor resistencia al desgaste.",
+      "Adecuado para trabajos en altura, acceso por cuerda y operaciones de rescate.",
+      "Cumple referencias de seguridad como EN 341, EN 12841, ANSI Z359.4 y NFPA 1983.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA ID DESCENDEDOR.png",
   },
   {
     id: 68,
     name: "Jack Jumper",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/jack jumper.png",
     description:
-      "Jack Jumper para aplicaciones y trabajos eléctricos especializados.",
+      "El Jack Jumper es una herramienta diseñada para realizar bypass temporal en cortacircuitos tipo cutout de redes eléctricas de distribución. Permite retirar o reemplazar fusibles sin interrumpir el servicio eléctrico, facilitando las labores de mantenimiento y coordinación de fusibles. Su diseño permite realizar el bypass de manera rápida y controlada mediante una pértiga aislada tipo shotgun (shotgun stick), evitando el uso de cables jumper voluminosos. Está especialmente destinado a trabajos en redes aéreas de media tensión y operaciones de mantenimiento eléctrico.",
+    features: [
+      "Tensión nominal: 27 kV.",
+      "Corriente nominal: 100 A.",
+      "Diseñado para bypass temporal de cortacircuitos tipo cutout.",
+      "Instalación y operación mediante pértiga tipo shotgun.",
+      "Construcción en acero inoxidable para mayor resistencia y durabilidad.",
+      "Incorpora mecanismo de resorte conductor para facilitar la conexión.",
+      "Cuenta con gancho superior de conexión.",
+      "Dispone de gancho inferior de fijación para asegurar el dispositivo.",
+      "Anillos de operación para facilitar la manipulación con pértiga.",
+      "Longitud aproximada: 8,5 pulgadas.",
+      "Ancho aproximado: 3,5 pulgadas.",
+      "Peso aproximado: 15 oz (0,43 kg).",
+      "Facilita el retiro y reemplazo de fusibles manteniendo temporalmente la continuidad del circuito.",
+      "Adecuado para mantenimiento de redes aéreas de media tensión.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA JACK JUMPER.png",
   },
   {
     id: 69,
     name: "Load Ranger",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/load ranger.jpg",
     description:
-      "Herramienta Load Ranger para trabajos eléctricos especializados.",
+      "La Load-Ranger® XLT es una herramienta portátil de interrupción de carga diseñada para realizar la apertura y cierre de circuitos de media tensión de forma segura y eficiente. Permite efectuar maniobras en equipos energizados con capacidades de interrupción de hasta 900 A, utilizando tecnología de extinción de arco en vacío para brindar mayor seguridad y confiabilidad durante la operación. Su diseño compacto, liviano y ergonómico facilita el manejo mediante pértigas aislantes estándar, reduciendo el esfuerzo del operador y favoreciendo un trabajo eficiente en campo. Está disponible en las versiones XLT-1 y XLT-2, para diferentes niveles de tensión.",
+    features: [
+      "Capacidad de interrupción: hasta 900 A en carga.",
+      "Tecnología de extinción de arco en vacío.",
+      "Disponible en versiones XLT-1 y XLT-2.",
+      "Tensión máxima de operación: hasta 27 kV (XLT-1) y de 27 a 38 kV (XLT-2).",
+      "Frecuencia de operación: 50/60 Hz.",
+      "Diseño compacto, liviano y balanceado.",
+      "Compatible con pértigas aislantes estándar.",
+      "Botón lateral de rearme No-Pinch™ para mayor seguridad.",
+      "Contador de operaciones disponible según la versión.",
+      "Capacidad de cierre en cortocircuito de hasta 10 kA asimétricos.",
+      "Distancia mínima metal-metal: 387 mm en XLT-1 y 489 mm en XLT-2.",
+      "Longitud total: 356 mm en XLT-1 y 457 mm en XLT-2.",
+      "Peso aproximado: 1,7 kg en XLT-1 y 2,0 kg en XLT-2.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA LOAD-RANGER.jfif",
   },
   {
     id: 70,
     name: "LoadBuster",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/loadBuster.jpg",
     description:
-      "Herramienta LoadBuster para operaciones en sistemas eléctricos.",
+      "El Loadbuster® de S&C Electric es una herramienta portátil diseñada para realizar aperturas bajo carga en sistemas de distribución de media tensión, permitiendo interrumpir de manera segura el flujo de corriente en equipos energizados sin necesidad de desenergizar previamente el sistema. Su diseño permite operar mediante una pértiga aislante, siendo adecuada para trabajos de seccionamiento en seccionadores aéreos, cortacircuitos, fusibles de potencia y fusibles limitadores. Su construcción robusta, bajo mantenimiento y contador de operaciones integrado favorecen un funcionamiento confiable en labores de mantenimiento eléctrico.",
+    features: [
+      "Marca: S&C Electric.",
+      "Apertura bajo carga sin necesidad de desenergizar el sistema.",
+      "Capacidad nominal: 600 A.",
+      "Capacidad máxima: 900 A.",
+      "Compatible con sistemas de 14,4/25 kV y 25/34,5 kV.",
+      "Tensión máxima del sistema: hasta 27 kV / 38 kV, según configuración.",
+      "Frecuencia nominal: 50/60 Hz.",
+      "Hasta 2.000 operaciones entre inspecciones, según modelo y condiciones de aplicación.",
+      "Contador de operaciones integrado para facilitar el control de mantenimiento.",
+      "Diseño portátil, robusto y de bajo mantenimiento.",
+      "Operación mediante pértiga aislante.",
+      "Peso aproximado: 2,8 kg sin pértiga.",
+      "Longitud aproximada: 42 cm sin pértiga.",
+      'Diámetro del adaptador: 1,25" (31,75 mm).',
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA LOAD- BUSTER.png",
   },
   {
     id: 71,
     name: "Pelacable ecológico",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/pelacable ecologico.jpg",
     description:
-      "Pelacable ecológico para trabajos de preparación de conductores.",
+      "El Pelacable para Cable Ecológico DPC/10-40 es una herramienta profesional diseñada para realizar el corte longitudinal y retiro controlado de la cubierta exterior de cables ecológicos redondos, facilitando las labores de instalación y mantenimiento de redes de telecomunicaciones y energía. Su cuerpo metálico resistente y su sistema de cuchilla ajustable permiten adaptar la profundidad de corte según el diámetro del cable, realizando un trabajo preciso sin afectar el conductor interno. Su diseño compacto y portátil facilita el uso tanto en campo como en taller.",
+    features: [
+      "Modelo: DPC/10-40.",
+      "Diseñado para cables ecológicos redondos de 10 a 40 mm de diámetro.",
+      "Permite realizar cortes longitudinales en la cubierta exterior.",
+      "Profundidad de corte ajustable hasta 11 mm.",
+      "Cuchilla ajustable para controlar con precisión la profundidad de corte.",
+      "No daña el conductor interno cuando se utiliza correctamente.",
+      "Cuerpo fabricado en aleación de aluminio.",
+      "Cuchilla fabricada en acero de alta resistencia.",
+      "Tornillo de ajuste manual para regular la profundidad.",
+      "Ajuste paso a paso: 1/4 de vuelta = 0,2 mm.",
+      "Longitud total: 230 mm.",
+      "Dimensiones: 230 × 70 × 75 mm.",
+      "Peso aproximado: 0,41 kg.",
+      "Diseño compacto, liviano y portátil.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA PELACABLE CABLE ECOLOGICO png.png",
   },
   {
     id: 72,
     name: "Pinza amperimétrica UNI-T UT202A",
     category: "Herramienta especializada",
-
     reference: "UT202A",
     image:
       "/imgs/productos/herramienta especializada/pinza amperimetrica unit ut202A.jpg",
-    description: "Pinza amperimétrica para medición de parámetros eléctricos.",
+    description:
+      "La Pinza Amperimétrica Digital UNI-T UT202A+ es un instrumento profesional de medición diseñado para realizar mediciones eléctricas de forma rápida, segura y precisa, sin necesidad de desconectar el circuito. Su diseño permite medir corriente mediante la mordaza, facilitando trabajos de mantenimiento, diagnóstico e instalación eléctrica. Integra tecnología True RMS, que proporciona mediciones confiables incluso en señales eléctricas no sinusoidales. Además, cuenta con funciones de multímetro digital para medir voltaje AC/DC, resistencia, capacitancia, frecuencia, continuidad y diodos, convirtiéndola en una herramienta versátil para aplicaciones industriales y de mantenimiento.",
+    features: [
+      "Marca: UNI-T.",
+      "Modelo: UT202A+.",
+      "Tecnología True RMS para mediciones precisas y confiables.",
+      "Medición de corriente AC de 2 A a 600 A.",
+      "Medición de voltaje AC/DC de hasta 600 V.",
+      "Función NCV para detección de voltaje sin contacto.",
+      "Live Wire Test para detección de fase.",
+      "Medición de resistencia de 200 Ω a 60 MΩ.",
+      "Medición de capacitancia hasta 60 mF.",
+      "Medición de frecuencia de 10 Hz a 10 kHz.",
+      "Auto rango inteligente para facilitar las mediciones.",
+      "Función Data Hold para retener los valores en pantalla.",
+      "Prueba de diodos y continuidad con buzzer.",
+      "Pantalla LCD de 5999 cuentas con retroiluminación.",
+      "Apagado automático para optimizar el consumo de batería.",
+      "Apertura de mordaza de 28 mm.",
+      "Categoría de seguridad CAT II 600 V / CAT III 300 V.",
+      "Alimentación mediante 2 baterías AAA de 1,5 V.",
+      "Diseño compacto, portátil y ergonómico.",
+      "Peso aproximado: 248 g.",
+      "Dimensiones aproximadas: 215 × 63 × 36 mm.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA PINZA UNI-T UT202A+.png",
   },
   {
     id: 73,
     name: "Pinza SensorLink",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/pinza sensorLink.jpg",
-    description: "Pinza SensorLink para medición y trabajos especializados.",
+    description:
+      "La Pinza Amperimétrica SensorLink Ampstik Plus es un instrumento profesional diseñado para realizar mediciones de corriente sin contacto directo con el conductor en redes eléctricas de media y alta tensión. Su tecnología de sensor de corriente permite medir conductores individuales de manera segura, incluso en presencia de otros conductores energizados. El equipo ofrece mediciones True RMS, alta precisión y lectura rápida, permitiendo almacenar hasta cuatro mediciones para facilitar las labores de inspección, mantenimiento y balanceo de cargas. Su diseño está preparado para utilizarse con pértiga dieléctrica, proporcionando una solución práctica para trabajos en campo y sistemas eléctricos energizados.",
+    features: [
+      "Marca: SensorLink.",
+      "Modelo: Ampstik Plus.",
+      "Medición de corriente sin contacto directo con el conductor.",
+      "Rango de corriente: 1 A a 5000 A.",
+      "Diseñada para sistemas de hasta 500 kV.",
+      "Medición True RMS para mayor precisión.",
+      "Precisión: ±1 % ±2 dígitos.",
+      "Sensor no sensible a la posición del conductor.",
+      "Rechazo de campos magnéticos externos para mejorar la confiabilidad de las mediciones.",
+      "Lectura rápida en menos de 2 segundos.",
+      "Capacidad para almacenar hasta 4 lecturas.",
+      "Resolución: 0,1 A / 1 A / 0,01 kA.",
+      'Apertura del sensor: 2,5" a 3,86", según el modelo.',
+      "Pantalla digital de 3,5 dígitos.",
+      "Operación mediante botón único.",
+      "Alimentación mediante batería de 9 V.",
+      "Adaptador universal para pértiga dieléctrica.",
+      "Carcasa de uretano resistente a impactos.",
+      "Resistente a agua, golpes y llama.",
+      "Rango de temperatura de operación: -30 °C a 60 °C.",
+      "Diseño robusto para trabajo en campo y ambientes exigentes.",
+      "Ideal para inspección de redes, mantenimiento de subestaciones, balanceo de cargas y diagnóstico eléctrico.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA PINZA SENSOR LINK.png",
   },
   {
     id: 74,
     name: "Ponchadora hidráulica YQK-300",
     category: "Herramienta especializada",
-
     reference: "YQK-300",
     image:
       "/imgs/productos/herramienta especializada/ponchadora hidraulica YQK-300.jpg",
     description:
-      "Ponchadora hidráulica YQK-300 para trabajos de conexión y terminales.",
+      "La Ponchadora Hidráulica YQK-300 es una herramienta profesional diseñada para realizar el ponchado de terminales, conectores y conductores eléctricos de manera eficiente y segura. Su sistema hidráulico proporciona una fuerza de ponchado de hasta 10 toneladas, permitiendo obtener conexiones firmes y uniformes. Cuenta con un sistema de dados intercambiables y ponchado hexagonal, adaptándose a diferentes calibres de conductores. Su diseño de operación manual facilita el trabajo en instalaciones eléctricas, redes de distribución y aplicaciones de media tensión.",
+    features: [
+      "Modelo: YQK-300.",
+      "Fuerza de ponchado: 10 toneladas.",
+      "Rango de ponchado: 16–300 mm² (6 AWG–500 MCM).",
+      "Sistema de ponchado hexagonal.",
+      "Desplazamiento: 20 mm.",
+      "Dados intercambiables para diferentes calibres.",
+      "Dados disponibles: 16, 25, 35, 50, 70, 95, 120, 150, 185 y 240 mm².",
+      "Diseño hidráulico para obtener una fuerza de compresión uniforme.",
+      "Operación manual mediante palanca hidráulica.",
+      "Peso aproximado: 3,55 kg.",
+      "Diseño portátil y práctico para trabajos en campo.",
+      "Permite realizar conexiones de manera rápida y eficiente.",
+      "Adecuada para terminales y conectores eléctricos.",
+      "Aplicable en redes aéreas de distribución, media tensión y subestaciones.",
+      "Construcción robusta para trabajos profesionales.",
+      "Incluye estuche para facilitar el transporte y almacenamiento.",
+      "Requiere selección adecuada de los dados según el tipo de conector y calibre del conductor.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA PONCHADORA HIDRAULICA YQK-300.png",
   },
   {
     id: 75,
     name: "Ponchadora hidráulica YQK-400",
     category: "Herramienta especializada",
-
     reference: "YQK-400",
     image:
       "/imgs/productos/herramienta especializada/ponchadora hidraulica YQK-400.jpg.png",
     description:
-      "Ponchadora hidráulica YQK-400 para trabajos de conexión y terminales.",
+      "La Ponchadora Hidráulica YQK-400A es una herramienta profesional diseñada para realizar el ponchado de terminales, conectores y conductores eléctricos de manera rápida, uniforme y eficiente. Su sistema hidráulico proporciona una fuerza de ponchado de hasta 16 toneladas, permitiendo trabajar con conductores de diferentes calibres. Está diseñada para aplicaciones en redes aéreas de distribución, instalaciones de media tensión, subestaciones y trabajos eléctricos, ofreciendo una solución robusta y confiable para labores de instalación y mantenimiento.",
+
+    features: [
+      "Modelo: YQK-400A.",
+      "Fuerza de ponchado: 16 toneladas.",
+      "Rango de ponchado: 16–400 mm² (6 AWG–800 MCM).",
+      "Desplazamiento: 16 mm.",
+      "Sistema de ponchado hidráulico para obtener una compresión uniforme.",
+      "Dados intercambiables para diferentes calibres de conductor.",
+      "Dados disponibles: 16, 25, 35, 50, 70, 95, 120, 150, 185, 240, 300 y 400 mm².",
+      "Longitud: 60 cm.",
+      "Peso: 15 kg.",
+      "Diseño robusto para aplicaciones profesionales.",
+      "Operación mediante sistema hidráulico manual.",
+      "Permite realizar conexiones eléctricas de forma rápida y eficiente.",
+      "Adecuada para trabajos de media tensión.",
+      "Aplicable en redes aéreas de distribución y subestaciones.",
+      "Facilita el trabajo de instalación y mantenimiento de conductores eléctricos.",
+      "Incluye estuche de transporte y almacenamiento.",
+      "Dados de diferentes medidas para adaptarse al conector utilizado.",
+      "Requiere seleccionar correctamente el dado de acuerdo con el tipo de conector y calibre del conductor.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA PONCHADORA HIDRAULICA YQK-400.png",
   },
   {
     id: 76,
     name: "Riolas",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/riolas.jpg",
     description:
@@ -1592,10 +2126,30 @@ export const products: Product[] = [
     id: 77,
     name: "Zunchadora",
     category: "Herramienta especializada",
-
     reference: "N/A",
     image: "/imgs/productos/herramienta especializada/zunchadora.png",
     description:
-      "Herramienta para operaciones de zunchado y trabajos especializados.",
+      "La Zunchadora Manual Serie S262 es una herramienta diseñada para la aplicación, tensado y corte de flejes de acero inoxidable utilizados en postes, estructuras y diferentes sistemas de sujeción. Su mecanismo de tornillo permite realizar un tensado firme, rápido y controlado, manteniendo la tensión del fleje durante la instalación. Cuenta con una cuchilla de corte integrada y una estructura fabricada en acero de alta resistencia con recubrimiento anticorrosivo, ofreciendo una herramienta robusta, durable y práctica para trabajos de instalación y mantenimiento.",
+    features: [
+      "Modelo: S262.",
+      "Zunchadora manual de tornillo.",
+      "Compatible con flejes de acero inoxidable.",
+      'Ancho de fleje compatible: 1/4" a 3/4" (6,4–19 mm).',
+      'Espesor de fleje: hasta 0,030" (0,76 mm).',
+      "Tornillo de tensión para un ajuste firme y controlado.",
+      "Cuchilla de corte integrada para facilitar el trabajo.",
+      "Cuerpo fabricado en acero de alta resistencia.",
+      "Recubrimiento anticorrosivo para mayor durabilidad.",
+      "Diseño robusto para aplicaciones profesionales.",
+      "Herramienta ligera y de fácil manejo.",
+      "Peso aproximado: 1,4 kg.",
+      "Dimensiones aproximadas: 300 × 100 × 120 mm.",
+      "Adecuada para instalación de flejes en postes de servicios públicos.",
+      "Aplicable en estructuras metálicas, tuberías, conductos, señalización y accesorios.",
+      "Permite realizar un tensado rápido y eficiente.",
+      "Diseño práctico para trabajos de instalación y mantenimiento en campo.",
+    ],
+    technicalSheet:
+      "/imgs/fichas-tecnicas/herramienta especializada/FICHA TECNICA  ZUNCHADORA.png",
   },
 ];

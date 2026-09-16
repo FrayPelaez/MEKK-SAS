@@ -58,12 +58,12 @@ Agradezco su asesoría.`;
         </h2>
 
         <a
-          href={`mailto:compras.mekksas@gmail.com?subject=${encodeURIComponent(
+          href={`mailto:marketing07@gmail.com?subject=${encodeURIComponent(
             emailSubject
           )}&body=${encodeURIComponent(emailBody)}`}
           className="mt-2 break-all text-sm font-normal leading-5 text-[#4b5563] transition hover:text-[#ff6500] xl:mt-3 xl:text-base xl:leading-6"
         >
-          compras.mekksas@gmail.com
+          marketing07@gmail.com
         </a>
       </article>
 
@@ -118,14 +118,14 @@ Agradezco su asesoría.`;
         </h2>
 
         <a
-          href={`https://wa.me/573142898780?text=${encodeURIComponent(
+          href={`https://wa.me/573024562908?text=${encodeURIComponent(
             whatsappMessage
           )}`}
           target="_blank"
           rel="noreferrer"
           className="mt-2 text-sm font-normal leading-5 text-[#4b5563] transition hover:text-[#ff6500] xl:mt-3 xl:text-base xl:leading-6"
         >
-          314 289 8780
+          302 456 2908
         </a>
       </article>
     </section>

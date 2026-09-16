@@ -10,7 +10,7 @@ const featuredImagePaths = [
   "/imgs/productos/puestas a tierra/sistema baja tension.png",
   "/imgs/productos/puestas a tierra/sistema media tension.png",
   "/imgs/productos/material electrico/pertigaHasting.png",
-  "/imgs/productos/herramienta especializada/antenallas.png",
+  "/imgs/productos/herramienta especializada/pinza sensorLink.jpg",
   "/imgs/productos/herramienta especializada/ampact.png",
 ];
 
